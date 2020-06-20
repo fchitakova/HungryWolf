@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - FoodTarget
   layers:
   - Default
   - TransparentFX
@@ -14,11 +15,11 @@ TagManager:
   - UI
   - 
   - 
-  - BlockingLayer
-  - 
-  - 
-  - 
-  - 
+  - GameLayer
+  - Obstacle
+  - Navigation
+  - Food
+  - Enemy
   - 
   - 
   - 
@@ -45,7 +46,7 @@ TagManager:
   - name: Floor
     uniqueID: 1542525813
     locked: 0
-  - name: Food
+  - name: 
     uniqueID: 357227425
     locked: 0
   - name: Units
