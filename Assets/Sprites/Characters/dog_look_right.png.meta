@@ -1,0 +1,1466 @@
+fileFormatVersion: 2
+guid: cf5715aed63493b4d865f18ba454adee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4431284538163608058
+    second: dog_right_0
+  - first:
+      213: -917896807731316375
+    second: dog_right_1
+  - first:
+      213: 2620604440729988482
+    second: dog_right_2
+  - first:
+      213: -7761070871475475333
+    second: dog_right_3
+  - first:
+      213: -3019898961649254647
+    second: dog_right_4
+  - first:
+      213: 434848447160068953
+    second: dog_right_5
+  - first:
+      213: 8645782886742564011
+    second: dog_right_6
+  - first:
+      213: -3548691083650790512
+    second: dog_right_7
+  - first:
+      213: -6555616426348661993
+    second: dog_right_8
+  - first:
+      213: 1522222138476904032
+    second: dog_right_9
+  - first:
+      213: 4569327190997510935
+    second: dog_right_10
+  - first:
+      213: -724452960043130817
+    second: dog_right_11
+  - first:
+      213: 4146525465579827128
+    second: dog_right_12
+  - first:
+      213: 3048560311064750794
+    second: dog_right_13
+  - first:
+      213: -7346529837408365993
+    second: dog_right_14
+  - first:
+      213: -1592037969180558557
+    second: dog_right_15
+  - first:
+      213: -4400295026130610732
+    second: dog_right_16
+  - first:
+      213: -2828556672657342511
+    second: dog_right_17
+  - first:
+      213: -1238969578060493257
+    second: dog_right_18
+  - first:
+      213: -3437693632393065101
+    second: dog_right_19
+  - first:
+      213: -2015027174364953314
+    second: dog_right_20
+  - first:
+      213: 2060891638200629172
+    second: dog_right_21
+  - first:
+      213: 4449573387978875455
+    second: dog_right_22
+  - first:
+      213: -3106868246374410334
+    second: dog_right_23
+  - first:
+      213: -8307775798539396407
+    second: dog_right_24
+  - first:
+      213: -6822076263063753472
+    second: dog_right_25
+  - first:
+      213: 4541196142341328424
+    second: dog_right_26
+  - first:
+      213: -6970377533638283093
+    second: dog_right_27
+  - first:
+      213: -4008367371952101064
+    second: dog_right_28
+  - first:
+      213: -3436988854498429185
+    second: dog_right_29
+  - first:
+      213: 8156274572690566088
+    second: dog_right_30
+  - first:
+      213: -3734026808624445696
+    second: dog_right_31
+  - first:
+      213: 3694622324295353856
+    second: dog_right_32
+  - first:
+      213: 8125983062703227128
+    second: dog_right_33
+  - first:
+      213: 5938972279625818123
+    second: dog_right_34
+  - first:
+      213: -2397457750171597898
+    second: dog_right_35
+  - first:
+      213: -4894224440679466817
+    second: dog_right_36
+  - first:
+      213: 6573288627773540660
+    second: dog_right_37
+  - first:
+      213: -4348261170071538462
+    second: dog_right_38
+  - first:
+      213: 3135609067358921654
+    second: dog_right_39
+  - first:
+      213: 7484116733000011627
+    second: dog_right_40
+  - first:
+      213: -6966976990124811201
+    second: dog_right_41
+  - first:
+      213: 836594345440759174
+    second: dog_right_42
+  - first:
+      213: 6896696207273678000
+    second: dog_right_43
+  - first:
+      213: -8838624568637988311
+    second: dog_right_44
+  - first:
+      213: 3226632086382122536
+    second: dog_left_0
+  - first:
+      213: 3877332378176053153
+    second: dog_left_1
+  - first:
+      213: 3282373655363986129
+    second: dog_left_2
+  - first:
+      213: -1537810161262371170
+    second: dog_left_3
+  - first:
+      213: 4003341346231861996
+    second: dog_left_4
+  - first:
+      213: 706362296529365935
+    second: dog_left_5
+  - first:
+      213: -9048740949662552638
+    second: dog_left_6
+  - first:
+      213: 3606032007393377820
+    second: dog_left_7
+  - first:
+      213: 8064136748351028624
+    second: dog_left_8
+  - first:
+      213: -6356093549584378503
+    second: dog_left_9
+  - first:
+      213: 1431244100990292275
+    second: dog_left_10
+  - first:
+      213: -6711068363049345025
+    second: dog_left_11
+  - first:
+      213: 2846621879505403689
+    second: dog_left_12
+  - first:
+      213: -3907791890318545076
+    second: dog_left_13
+  - first:
+      213: 2429505095912145556
+    second: dog_left_14
+  - first:
+      213: -4956943371459861444
+    second: dog_left_15
+  - first:
+      213: 2727642782883742612
+    second: dog_left_16
+  - first:
+      213: 7617463079506557778
+    second: dog_left_17
+  - first:
+      213: 4886533580688671839
+    second: dog_left_18
+  - first:
+      213: -1225416669639955666
+    second: dog_left_19
+  - first:
+      213: -5832872506893012247
+    second: dog_left_20
+  - first:
+      213: 2040957298654581529
+    second: dog_left_21
+  - first:
+      213: 6518937532288558495
+    second: dog_left_22
+  - first:
+      213: 8671416127987381862
+    second: dog_left_23
+  - first:
+      213: 5283655599655816909
+    second: dog_left_24
+  - first:
+      213: 5606008823262366483
+    second: dog_left_25
+  - first:
+      213: 8840714510216813755
+    second: dog_left_26
+  - first:
+      213: 7925462406812618125
+    second: dog_left_27
+  - first:
+      213: -3755930908611938293
+    second: dog_left_28
+  - first:
+      213: -6825604117899444995
+    second: dog_left_29
+  - first:
+      213: 8427836116214440291
+    second: dog_left_30
+  - first:
+      213: -3703058314857158978
+    second: dog_left_31
+  - first:
+      213: -5759862299458417922
+    second: dog_left_32
+  - first:
+      213: -658648112953085855
+    second: dog_left_33
+  - first:
+      213: -447265875300488334
+    second: dog_left_34
+  - first:
+      213: -5323845183094421893
+    second: dog_left_35
+  - first:
+      213: 4454092529091730109
+    second: dog_left_36
+  - first:
+      213: -4290133201346120252
+    second: dog_left_37
+  - first:
+      213: -5869533985710721852
+    second: dog_left_38
+  - first:
+      213: -7888559862503879286
+    second: dog_left_39
+  - first:
+      213: -1338131810869616663
+    second: dog_left_40
+  - first:
+      213: -8319702029131174376
+    second: dog_left_41
+  - first:
+      213: 60121790634670617
+    second: dog_left_42
+  - first:
+      213: -3443040803467906918
+    second: dog_left_43
+  - first:
+      213: -4417673166631498311
+    second: dog_left_44
+  - first:
+      213: 8972206131382844741
+    second: dog_look_right_0
+  - first:
+      213: 5445838939323536889
+    second: dog_look_right_1
+  - first:
+      213: 3244461758029175097
+    second: dog_look_right_2
+  - first:
+      213: 7661173797298105261
+    second: dog_look_right_3
+  - first:
+      213: -2647999572664919092
+    second: dog_look_right_4
+  - first:
+      213: -8189720296460417097
+    second: dog_look_right_5
+  - first:
+      213: 6475808345663977504
+    second: dog_look_right_6
+  - first:
+      213: -365781173410206020
+    second: dog_look_right_7
+  - first:
+      213: -7781743151560687262
+    second: dog_look_right_8
+  - first:
+      213: 5616699159450049716
+    second: dog_look_right_9
+  - first:
+      213: 3415971178951332713
+    second: dog_look_right_10
+  - first:
+      213: -5218168042675019689
+    second: dog_look_right_11
+  - first:
+      213: -6074644847686706187
+    second: dog_look_right_12
+  - first:
+      213: 3134987552129643369
+    second: dog_look_right_13
+  - first:
+      213: 1428889693450195188
+    second: dog_look_right_14
+  - first:
+      213: -3651563325301286569
+    second: dog_look_right_15
+  - first:
+      213: 353113759321173378
+    second: dog_look_right_16
+  - first:
+      213: 7916454076905535586
+    second: dog_look_right_17
+  - first:
+      213: 7900970694292436800
+    second: dog_look_right_18
+  - first:
+      213: 7362268982807469995
+    second: dog_look_right_19
+  - first:
+      213: -4956295883187787192
+    second: dog_look_right_20
+  - first:
+      213: -7850305255896496948
+    second: dog_look_right_21
+  - first:
+      213: -78909299448861688
+    second: dog_look_right_22
+  - first:
+      213: 1097638564388513822
+    second: dog_look_right_23
+  - first:
+      213: 6410044838765358257
+    second: dog_look_right_24
+  - first:
+      213: -1167219121591749570
+    second: dog_look_right_25
+  - first:
+      213: 5845532139615132006
+    second: dog_look_right_26
+  - first:
+      213: 141825102239603475
+    second: dog_look_right_27
+  - first:
+      213: -7393039023474423010
+    second: dog_look_right_28
+  - first:
+      213: -3793259257187010326
+    second: dog_look_right_29
+  - first:
+      213: 8158696067153510714
+    second: dog_look_right_30
+  - first:
+      213: -8418540948824010764
+    second: dog_look_right_31
+  - first:
+      213: 614712718867617193
+    second: dog_look_right_32
+  - first:
+      213: 7500392100540021193
+    second: dog_look_right_33
+  - first:
+      213: -2738600282562826916
+    second: dog_look_right_34
+  - first:
+      213: -313214125089261753
+    second: dog_look_right_35
+  - first:
+      213: -3649431257644129631
+    second: dog_look_right_36
+  - first:
+      213: 3032854469325824047
+    second: dog_look_right_37
+  - first:
+      213: 3043864538017821434
+    second: dog_look_right_38
+  - first:
+      213: 419062562164025811
+    second: dog_look_right_39
+  - first:
+      213: -108952153408294586
+    second: dog_look_right_40
+  - first:
+      213: 8900648780397232945
+    second: dog_look_right_41
+  - first:
+      213: -6608196352916782440
+    second: dog_look_right_42
+  - first:
+      213: -5200006956467456183
+    second: dog_look_right_43
+  - first:
+      213: 4813306189198786360
+    second: dog_look_right_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dog_look_right_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 323
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54df7a090fda38c70800000000000000
+      internalID: 8972206131382844741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 332
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f59e5a79a1839b40800000000000000
+      internalID: 5445838939323536889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 323
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9391bae67c4a60d20800000000000000
+      internalID: 3244461758029175097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_3
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 324
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabeb7e5af4f15a60800000000000000
+      internalID: 7661173797298105261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_4
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 324
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbdbe91b6a604bd0800000000000000
+      internalID: -2647999572664919092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 324
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b78ba708c4485e80800000000000000
+      internalID: -8189720296460417097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 259
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028bfcc4161bed950800000000000000
+      internalID: 6475808345663977504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 268
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbeeb55f5fb7ceaf0800000000000000
+      internalID: -365781173410206020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 259
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26185e545d1b10490800000000000000
+      internalID: -7781743151560687262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_9
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 260
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc5141802682fd40800000000000000
+      internalID: 5616699159450049716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_10
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 260
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963dd5c40b7f76f20800000000000000
+      internalID: 3415971178951332713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_11
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 260
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7506f0eefc75597b0800000000000000
+      internalID: -5218168042675019689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 196
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb1af422b682bba0800000000000000
+      internalID: -6074644847686706187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 196
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96375fb9196b18b20800000000000000
+      internalID: 3134987552129643369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_14
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 196
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0d0590b9f64d310800000000000000
+      internalID: 1428889693450195188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_15
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 196
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7599290a08a035dc0800000000000000
+      internalID: -3651563325301286569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_16
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 195
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d24add71386e400800000000000000
+      internalID: 353113759321173378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_17
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 195
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268b5ae2a05ecdd60800000000000000
+      internalID: 7916454076905535586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 131
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047721e3cf2e5ad60800000000000000
+      internalID: 7900970694292436800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_19
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 131
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf9d1502a80c2660800000000000000
+      internalID: 7362268982807469995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 131
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a6cd06723b73bb0800000000000000
+      internalID: -4956295883187787192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 131
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc448e366fc1e0390800000000000000
+      internalID: -7850305255896496948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 140
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c20e40968a7eef0800000000000000
+      internalID: -78909299448861688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 131
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18a52275789b3f00800000000000000
+      internalID: 1097638564388513822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_24
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 131
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc6fe8a1dd05f850800000000000000
+      internalID: 6410044838765358257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_25
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 131
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34fa72a4643dcfe0800000000000000
+      internalID: -1167219121591749570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_26
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 131
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66993e092808f1150800000000000000
+      internalID: 5845532139615132006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 69
+        width: 61
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b9937dd2dd7f100800000000000000
+      internalID: 141825102239603475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 69
+        width: 61
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bc43b9d26a66990800000000000000
+      internalID: -7393039023474423010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 69
+        width: 61
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8f76a9dc2ab5bc0800000000000000
+      internalID: -3793259257187010326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 68
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31cf01b8d2893170800000000000000
+      internalID: 8158696067153510714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_31
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 67
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffc3424c955b2b80800000000000000
+      internalID: -8418540948824010764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_32
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 67
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5d40ff5f5e78800800000000000000
+      internalID: 614712718867617193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_33
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 66
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c975dc60eeb61860800000000000000
+      internalID: 7500392100540021193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_34
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 66
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dee008d898ef9d0800000000000000
+      internalID: -2738600282562826916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 66
+        width: 63
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7477b67a96d37abf0800000000000000
+      internalID: -313214125089261753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a22aef4b9d9a5dc0800000000000000
+      internalID: -3649431257644129631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f202f93321dd61a20800000000000000
+      internalID: 3032854469325824047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_38
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2f5f49baafd3a20800000000000000
+      internalID: 3043864538017821434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_39
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 4
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9a3741e2fc0d500800000000000000
+      internalID: 419062562164025811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_40
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641b59ef79cec7ef0800000000000000
+      internalID: -108952153408294586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_41
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 3
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133471a78e4758b70800000000000000
+      internalID: 8900648780397232945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_42
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 4
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8920d52cd68fa44a0800000000000000
+      internalID: -6608196352916782440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 13
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9477232593dd5d7b0800000000000000
+      internalID: -5200006956467456183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_look_right_44
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ff1622a7c4cc240800000000000000
+      internalID: 4813306189198786360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

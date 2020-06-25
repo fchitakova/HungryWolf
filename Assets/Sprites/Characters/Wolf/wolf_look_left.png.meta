@@ -164,8 +164,170 @@ TextureImporter:
   - first:
       213: -7937740405248338080
     second: wolf_right_53
+  - first:
+      213: 3669300128624133112
+    second: wolf_look_left_0
+  - first:
+      213: 318800839790539613
+    second: wolf_look_left_1
+  - first:
+      213: -7652803958977253896
+    second: wolf_look_left_2
+  - first:
+      213: -3481672611989828513
+    second: wolf_look_left_3
+  - first:
+      213: -4965791677414361592
+    second: wolf_look_left_4
+  - first:
+      213: -665486071614588152
+    second: wolf_look_left_5
+  - first:
+      213: 8789925371398042358
+    second: wolf_look_left_6
+  - first:
+      213: -2533919298436931284
+    second: wolf_look_left_7
+  - first:
+      213: 8865304832100246041
+    second: wolf_look_left_8
+  - first:
+      213: 4683336894632889093
+    second: wolf_look_left_9
+  - first:
+      213: 4244157381843261938
+    second: wolf_look_left_10
+  - first:
+      213: -8899534438666656535
+    second: wolf_look_left_11
+  - first:
+      213: -2603981196507586356
+    second: wolf_look_left_12
+  - first:
+      213: 2114598254891541574
+    second: wolf_look_left_13
+  - first:
+      213: -5004428273712755502
+    second: wolf_look_left_14
+  - first:
+      213: -1605216417863412783
+    second: wolf_look_left_15
+  - first:
+      213: -4740569355673011268
+    second: wolf_look_left_16
+  - first:
+      213: -6609621156203041643
+    second: wolf_look_left_17
+  - first:
+      213: -2918233097229740512
+    second: wolf_look_left_18
+  - first:
+      213: -9035597102812276438
+    second: wolf_look_left_19
+  - first:
+      213: 424605248339076691
+    second: wolf_look_left_20
+  - first:
+      213: 3234470946136510023
+    second: wolf_look_left_21
+  - first:
+      213: 2087032554271637559
+    second: wolf_look_left_22
+  - first:
+      213: -5983114822613779762
+    second: wolf_look_left_23
+  - first:
+      213: 6090793343906672054
+    second: wolf_look_left_24
+  - first:
+      213: -8723213132094764926
+    second: wolf_look_left_25
+  - first:
+      213: 4827738264991259563
+    second: wolf_look_left_26
+  - first:
+      213: 1280309430090812202
+    second: wolf_look_left_27
+  - first:
+      213: 6341542884646626937
+    second: wolf_look_left_28
+  - first:
+      213: 7185135505662370774
+    second: wolf_look_left_29
+  - first:
+      213: 4942378905246791024
+    second: wolf_look_left_30
+  - first:
+      213: -4533262896999116676
+    second: wolf_look_left_31
+  - first:
+      213: 7289991796653856210
+    second: wolf_look_left_32
+  - first:
+      213: -4992382061267360395
+    second: wolf_look_left_33
+  - first:
+      213: 5763243686228009518
+    second: wolf_look_left_34
+  - first:
+      213: 4518164795345166077
+    second: wolf_look_left_35
+  - first:
+      213: -3291980293653531879
+    second: wolf_look_left_36
+  - first:
+      213: -496772017305766485
+    second: wolf_look_left_37
+  - first:
+      213: 6642955488961156786
+    second: wolf_look_left_38
+  - first:
+      213: 7203213749970463397
+    second: wolf_look_left_39
+  - first:
+      213: 8199769170913546981
+    second: wolf_look_left_40
+  - first:
+      213: -1515880469026584196
+    second: wolf_look_left_41
+  - first:
+      213: 3411139036495903368
+    second: wolf_look_left_42
+  - first:
+      213: 1004968822143025141
+    second: wolf_look_left_43
+  - first:
+      213: -2765247397726834676
+    second: wolf_look_left_44
+  - first:
+      213: 8140466442298447510
+    second: wolf_look_left_45
+  - first:
+      213: 477875752152448489
+    second: wolf_look_left_46
+  - first:
+      213: 8170894993107389200
+    second: wolf_look_left_47
+  - first:
+      213: 7862529194614023749
+    second: wolf_look_left_48
+  - first:
+      213: 4682546370708307579
+    second: wolf_look_left_49
+  - first:
+      213: -8373850480479763505
+    second: wolf_look_left_50
+  - first:
+      213: -6235734479614535351
+    second: wolf_look_left_51
+  - first:
+      213: -1269984400706188553
+    second: wolf_look_left_52
+  - first:
+      213: 2179021723898866138
+    second: wolf_look_left_53
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -219,6 +381,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -248,7 +411,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wolf_right_0
+      name: wolf_look_left_0
       rect:
         serializedVersion: 2
         x: 12
@@ -262,14 +425,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1289509109fbe4340800000000000000
-      internalID: 4850024474340595745
+      spriteID: 8f3cfe4b609fbe230800000000000000
+      internalID: 3669300128624133112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_1
+      name: wolf_look_left_1
       rect:
         serializedVersion: 2
         x: 76
@@ -283,14 +446,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c654b09e8f47d2260800000000000000
-      internalID: 7074439202079458668
+      spriteID: d53bfc9bcab9c6400800000000000000
+      internalID: 318800839790539613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_2
+      name: wolf_look_left_2
       rect:
         serializedVersion: 2
         x: 140
@@ -304,14 +467,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57f099b1da478c990800000000000000
-      internalID: -7365508903723266187
+      spriteID: 8fd25797857cbc590800000000000000
+      internalID: -7652803958977253896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_3
+      name: wolf_look_left_3
       rect:
         serializedVersion: 2
         x: 204
@@ -325,14 +488,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12a6ac08095acd260800000000000000
-      internalID: 7123750750647904801
+      spriteID: f5cc322c43d9eafc0800000000000000
+      internalID: -3481672611989828513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_4
+      name: wolf_look_left_4
       rect:
         serializedVersion: 2
         x: 256
@@ -346,14 +509,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2599551234e319be0800000000000000
-      internalID: -1472327145130452654
+      spriteID: 806302f77c6f51bb0800000000000000
+      internalID: -4965791677414361592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_5
+      name: wolf_look_left_5
       rect:
         serializedVersion: 2
         x: 320
@@ -367,14 +530,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d97a71882833eac10800000000000000
-      internalID: 2066645914731653021
+      spriteID: 80b317a91f7b3c6f0800000000000000
+      internalID: -665486071614588152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_6
+      name: wolf_look_left_6
       rect:
         serializedVersion: 2
         x: 388
@@ -388,14 +551,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9223280c406879890800000000000000
-      internalID: -7451339703493447127
+      spriteID: 6f2bf54ed861cf970800000000000000
+      internalID: 8789925371398042358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_7
+      name: wolf_look_left_7
       rect:
         serializedVersion: 2
         x: 452
@@ -409,14 +572,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4e759bb8a2878ce0800000000000000
-      internalID: -1403009097689366966
+      spriteID: c21e827c2d5b5dcd0800000000000000
+      internalID: -2533919298436931284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_8
+      name: wolf_look_left_8
       rect:
         serializedVersion: 2
         x: 516
@@ -430,14 +593,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 597a92e436ed250e0800000000000000
-      internalID: -2282517543028938859
+      spriteID: 912a3ee36c3e70b70800000000000000
+      internalID: 8865304832100246041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_9
+      name: wolf_look_left_9
       rect:
         serializedVersion: 2
         x: 12
@@ -451,14 +614,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abbce742a5f0fd260800000000000000
-      internalID: 7124430015357176762
+      spriteID: 50b0310a71e8ef040800000000000000
+      internalID: 4683336894632889093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_10
+      name: wolf_look_left_10
       rect:
         serializedVersion: 2
         x: 76
@@ -472,14 +635,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 551e44674306ee580800000000000000
-      internalID: -8795987243769208491
+      spriteID: 2f99e9bf6a646ea30800000000000000
+      internalID: 4244157381843261938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_11
+      name: wolf_look_left_11
       rect:
         serializedVersion: 2
         x: 140
@@ -493,14 +656,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb04a802ab98739d0800000000000000
-      internalID: -2794613611257249605
+      spriteID: 9e42bec64908e7480800000000000000
+      internalID: -8899534438666656535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_12
+      name: wolf_look_left_12
       rect:
         serializedVersion: 2
         x: 208
@@ -514,14 +677,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 266557799f2901730800000000000000
-      internalID: 3967832872398968418
+      spriteID: cc06e54f5ecccdbd0800000000000000
+      internalID: -2603981196507586356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_13
+      name: wolf_look_left_13
       rect:
         serializedVersion: 2
         x: 265
@@ -535,14 +698,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0f1db9c928e587a0800000000000000
-      internalID: -6375434431297151221
+      spriteID: 644a871c8ef885d10800000000000000
+      internalID: 2114598254891541574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_14
+      name: wolf_look_left_14
       rect:
         serializedVersion: 2
         x: 330
@@ -556,14 +719,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaf2a18bb683f1d40800000000000000
-      internalID: 5557222500499861422
+      spriteID: 2dc0e69eff2bc8ab0800000000000000
+      internalID: -5004428273712755502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_15
+      name: wolf_look_left_15
       rect:
         serializedVersion: 2
         x: 401
@@ -577,14 +740,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02b9267ed64a30fe0800000000000000
-      internalID: -1223953881774253280
+      spriteID: 1d350a93c2029b9e0800000000000000
+      internalID: -1605216417863412783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_16
+      name: wolf_look_left_16
       rect:
         serializedVersion: 2
         x: 467
@@ -598,14 +761,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdab05d4888b15000800000000000000
-      internalID: 23002368665762527
+      spriteID: cbbf102a94d163eb0800000000000000
+      internalID: -4740569355673011268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_17
+      name: wolf_look_left_17
       rect:
         serializedVersion: 2
         x: 531
@@ -619,14 +782,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcebe61dff1f1c600800000000000000
-      internalID: 486936315765374667
+      spriteID: 59c6c94e398e544a0800000000000000
+      internalID: -6609621156203041643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_18
+      name: wolf_look_left_18
       rect:
         serializedVersion: 2
         x: 15
@@ -640,14 +803,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b0639b81bd7ca2f0800000000000000
-      internalID: -960254419032383311
+      spriteID: 02655d3a57a5087d0800000000000000
+      internalID: -2918233097229740512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_19
+      name: wolf_look_left_19
       rect:
         serializedVersion: 2
         x: 80
@@ -661,14 +824,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45ec3aac7254cae80800000000000000
-      internalID: -8166075987123777964
+      spriteID: a295351ce4c1b9280800000000000000
+      internalID: -9035597102812276438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_20
+      name: wolf_look_left_20
       rect:
         serializedVersion: 2
         x: 145
@@ -682,14 +845,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd31209f8e470b250800000000000000
-      internalID: 5958390850970063836
+      spriteID: 3566405493084e500800000000000000
+      internalID: 424605248339076691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_21
+      name: wolf_look_left_21
       rect:
         serializedVersion: 2
         x: 209
@@ -703,14 +866,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 812ad75ba96406630800000000000000
-      internalID: 3918209306096149016
+      spriteID: 74ec9c4403623ec20800000000000000
+      internalID: 3234470946136510023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_22
+      name: wolf_look_left_22
       rect:
         serializedVersion: 2
         x: 256
@@ -724,14 +887,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1a1d1bcf51cd2a50800000000000000
-      internalID: 6498062454539229726
+      spriteID: 7308900fc01a6fc10800000000000000
+      internalID: 2087032554271637559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_23
+      name: wolf_look_left_23
       rect:
         serializedVersion: 2
         x: 320
@@ -745,14 +908,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 123e13fc6b9ab6d30800000000000000
-      internalID: 4425817661446939425
+      spriteID: eca3bbbc4c4b7fca0800000000000000
+      internalID: -5983114822613779762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_24
+      name: wolf_look_left_24
       rect:
         serializedVersion: 2
         x: 397
@@ -766,14 +929,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca8bd39c079f10cf0800000000000000
-      internalID: -287674638367082324
+      spriteID: 6bdeedf9648d68450800000000000000
+      internalID: 6090793343906672054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_25
+      name: wolf_look_left_25
       rect:
         serializedVersion: 2
         x: 461
@@ -787,14 +950,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a7ebd3406c768460800000000000000
-      internalID: 7243613803569211303
+      spriteID: 2880879bfdbe0f680800000000000000
+      internalID: -8723213132094764926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_26
+      name: wolf_look_left_26
       rect:
         serializedVersion: 2
         x: 525
@@ -808,14 +971,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c5fca7ae1f64e60800000000000000
-      internalID: 7946304581926870168
+      spriteID: bab5d51af529ff240800000000000000
+      internalID: 4827738264991259563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_27
+      name: wolf_look_left_27
       rect:
         serializedVersion: 2
         x: 12
@@ -829,14 +992,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdb958168b508ea40800000000000000
-      internalID: 5397570442871806939
+      spriteID: a2b452fa4a294c110800000000000000
+      internalID: 1280309430090812202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_28
+      name: wolf_look_left_28
       rect:
         serializedVersion: 2
         x: 76
@@ -850,14 +1013,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e161e42fee55ed20800000000000000
-      internalID: 3307153882582442466
+      spriteID: 976a44797afa10850800000000000000
+      internalID: 6341542884646626937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_29
+      name: wolf_look_left_29
       rect:
         serializedVersion: 2
         x: 140
@@ -871,14 +1034,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e9d1d3aa7dcf9440800000000000000
-      internalID: 4944896842494237155
+      spriteID: 6d36d068caab6b360800000000000000
+      internalID: 7185135505662370774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_30
+      name: wolf_look_left_30
       rect:
         serializedVersion: 2
         x: 204
@@ -892,14 +1055,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e0aa85770be34760800000000000000
-      internalID: 7441049426615509225
+      spriteID: 0757e90bd6bd69440800000000000000
+      internalID: 4942378905246791024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_31
+      name: wolf_look_left_31
       rect:
         serializedVersion: 2
         x: 275
@@ -913,14 +1076,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f90b7b5527cd3440800000000000000
-      internalID: 4917305331420957173
+      spriteID: c70d8e6d96d9611c0800000000000000
+      internalID: -4533262896999116676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_32
+      name: wolf_look_left_32
       rect:
         serializedVersion: 2
         x: 339
@@ -934,14 +1097,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 701890f1f318b9d90800000000000000
-      internalID: -7089931080261074681
+      spriteID: 2d5901f3ae04b2560800000000000000
+      internalID: 7289991796653856210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_33
+      name: wolf_look_left_33
       rect:
         serializedVersion: 2
         x: 397
@@ -955,14 +1118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6754fce1198cd8450800000000000000
-      internalID: 6092746396514862454
+      spriteID: 575602f47fe77bab0800000000000000
+      internalID: -4992382061267360395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_34
+      name: wolf_look_left_34
       rect:
         serializedVersion: 2
         x: 461
@@ -976,14 +1139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e325e7ebbc7d22580800000000000000
-      internalID: -8853276647382691266
+      spriteID: e2222aff8972bff40800000000000000
+      internalID: 5763243686228009518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_35
+      name: wolf_look_left_35
       rect:
         serializedVersion: 2
         x: 525
@@ -997,14 +1160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 656fe0f2f67daa960800000000000000
-      internalID: 7614134992554096214
+      spriteID: dfe593f61feb3be30800000000000000
+      internalID: 4518164795345166077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_36
+      name: wolf_look_left_36
       rect:
         serializedVersion: 2
         x: 13
@@ -1018,14 +1181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58156d09145735240800000000000000
-      internalID: 4779292554033516933
+      spriteID: 913f1355d598052d0800000000000000
+      internalID: -3291980293653531879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_37
+      name: wolf_look_left_37
       rect:
         serializedVersion: 2
         x: 77
@@ -1039,14 +1202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34b4a3dec98a96300800000000000000
-      internalID: 245913046616787779
+      spriteID: ba5b2267b7c1b19f0800000000000000
+      internalID: -496772017305766485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_38
+      name: wolf_look_left_38
       rect:
         serializedVersion: 2
         x: 141
@@ -1060,14 +1223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39bf89051a08b12e0800000000000000
-      internalID: -2153986566436357229
+      spriteID: 2b6d24242d4803c50800000000000000
+      internalID: 6642955488961156786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_39
+      name: wolf_look_left_39
       rect:
         serializedVersion: 2
         x: 209
@@ -1081,14 +1244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9024fd7340f4fe440800000000000000
-      internalID: 4967275793548788233
+      spriteID: 5aae238cdb4f6f360800000000000000
+      internalID: 7203213749970463397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_40
+      name: wolf_look_left_40
       rect:
         serializedVersion: 2
         x: 275
@@ -1102,14 +1265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af3fd5aad32897f90800000000000000
-      internalID: -6955384948134120454
+      spriteID: 5e25080ed9e6bc170800000000000000
+      internalID: 8199769170913546981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_41
+      name: wolf_look_left_41
       rect:
         serializedVersion: 2
         x: 339
@@ -1123,14 +1286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e4df047fe6381aa0800000000000000
-      internalID: -6190137285748468503
+      spriteID: c79c7b1beb286fae0800000000000000
+      internalID: -1515880469026584196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_42
+      name: wolf_look_left_42
       rect:
         serializedVersion: 2
         x: 393
@@ -1144,14 +1307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc0ab03a62a559ec0800000000000000
-      internalID: -3560840808375803700
+      spriteID: 88a7ec571ecc65f20800000000000000
+      internalID: 3411139036495903368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_43
+      name: wolf_look_left_43
       rect:
         serializedVersion: 2
         x: 457
@@ -1165,14 +1328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9b64c6d3c6440100800000000000000
-      internalID: 73261300880534427
+      spriteID: 5ff7d26b1dd52fd00800000000000000
+      internalID: 1004968822143025141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_44
+      name: wolf_look_left_44
       rect:
         serializedVersion: 2
         x: 521
@@ -1186,14 +1349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79543815ffe9358d0800000000000000
-      internalID: -2858766519028726377
+      spriteID: c003b66842edf99d0800000000000000
+      internalID: -2765247397726834676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_45
+      name: wolf_look_left_45
       rect:
         serializedVersion: 2
         x: 6
@@ -1207,14 +1370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 562fe4c498a198120800000000000000
-      internalID: 2416491852054065765
+      spriteID: 696df27691fb8f070800000000000000
+      internalID: 8140466442298447510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_46
+      name: wolf_look_left_46
       rect:
         serializedVersion: 2
         x: 70
@@ -1228,14 +1391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 467b24f1ffd3070d0800000000000000
-      internalID: -3427171150478526620
+      spriteID: 9edb1d5f671c1a600800000000000000
+      internalID: 477875752152448489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_47
+      name: wolf_look_left_47
       rect:
         serializedVersion: 2
         x: 134
@@ -1249,14 +1412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2936448832ce46600800000000000000
-      internalID: 460752699252827026
+      spriteID: 01b0f2974b9d46170800000000000000
+      internalID: 8170894993107389200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_48
+      name: wolf_look_left_48
       rect:
         serializedVersion: 2
         x: 209
@@ -1270,14 +1433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 372f012b178c31960800000000000000
-      internalID: 7571615789184250483
+      spriteID: 5466b1125a05d1d60800000000000000
+      internalID: 7862529194614023749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_49
+      name: wolf_look_left_49
       rect:
         serializedVersion: 2
         x: 272
@@ -1291,14 +1454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 345275dc8199f3260800000000000000
-      internalID: 7079545471053014339
+      spriteID: b7efc5e6d1fbbf040800000000000000
+      internalID: 4682546370708307579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_50
+      name: wolf_look_left_50
       rect:
         serializedVersion: 2
         x: 336
@@ -1312,14 +1475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e67b3ee853ce1f410800000000000000
-      internalID: 1509247064920536942
+      spriteID: fc305c4ca5b1acb80800000000000000
+      internalID: -8373850480479763505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_51
+      name: wolf_look_left_51
       rect:
         serializedVersion: 2
         x: 388
@@ -1333,14 +1496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf5f5826f2ed435f0800000000000000
-      internalID: -777752540530477573
+      spriteID: 9499be477883679a0800000000000000
+      internalID: -6235734479614535351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_52
+      name: wolf_look_left_52
       rect:
         serializedVersion: 2
         x: 452
@@ -1354,14 +1517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96fdf827f593b1dd0800000000000000
-      internalID: -2514352884849582231
+      spriteID: 7face9d8aeb106ee0800000000000000
+      internalID: -1269984400706188553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_right_53
+      name: wolf_look_left_53
       rect:
         serializedVersion: 2
         x: 516
@@ -1375,8 +1538,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06758e9482b77d190800000000000000
-      internalID: -7937740405248338080
+      spriteID: ad9e9d286b07d3e10800000000000000
+      internalID: 2179021723898866138
       vertices: []
       indices: 
       edges: []

@@ -1,0 +1,2291 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+guid: cf9da11d36678264bbece2195d724c2d
+=======
+guid: c26776a97b894f44aa37fe6a92f01782
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3226632086382122536
+    second: dog_left_0
+  - first:
+      213: 3877332378176053153
+    second: dog_left_1
+  - first:
+      213: 3282373655363986129
+    second: dog_left_2
+  - first:
+      213: -1537810161262371170
+    second: dog_left_3
+  - first:
+      213: 4003341346231861996
+    second: dog_left_4
+  - first:
+      213: 706362296529365935
+    second: dog_left_5
+  - first:
+      213: -9048740949662552638
+    second: dog_left_6
+  - first:
+      213: 3606032007393377820
+    second: dog_left_7
+  - first:
+      213: 8064136748351028624
+    second: dog_left_8
+  - first:
+      213: -6356093549584378503
+    second: dog_left_9
+  - first:
+      213: 1431244100990292275
+    second: dog_left_10
+  - first:
+      213: -6711068363049345025
+    second: dog_left_11
+  - first:
+      213: 2846621879505403689
+    second: dog_left_12
+  - first:
+      213: -3907791890318545076
+    second: dog_left_13
+  - first:
+      213: 2429505095912145556
+    second: dog_left_14
+  - first:
+      213: -4956943371459861444
+    second: dog_left_15
+  - first:
+      213: 2727642782883742612
+    second: dog_left_16
+  - first:
+      213: 7617463079506557778
+    second: dog_left_17
+  - first:
+      213: 4886533580688671839
+    second: dog_left_18
+  - first:
+      213: -1225416669639955666
+    second: dog_left_19
+  - first:
+      213: -5832872506893012247
+    second: dog_left_20
+  - first:
+      213: 2040957298654581529
+    second: dog_left_21
+  - first:
+      213: 6518937532288558495
+    second: dog_left_22
+  - first:
+      213: 8671416127987381862
+    second: dog_left_23
+  - first:
+      213: 5283655599655816909
+    second: dog_left_24
+  - first:
+      213: 5606008823262366483
+    second: dog_left_25
+  - first:
+      213: 8840714510216813755
+    second: dog_left_26
+  - first:
+      213: 7925462406812618125
+    second: dog_left_27
+  - first:
+      213: -3755930908611938293
+    second: dog_left_28
+  - first:
+      213: -6825604117899444995
+    second: dog_left_29
+  - first:
+      213: 8427836116214440291
+    second: dog_left_30
+  - first:
+      213: -3703058314857158978
+    second: dog_left_31
+  - first:
+      213: -5759862299458417922
+    second: dog_left_32
+  - first:
+      213: -658648112953085855
+    second: dog_left_33
+  - first:
+      213: -447265875300488334
+    second: dog_left_34
+  - first:
+      213: -5323845183094421893
+    second: dog_left_35
+  - first:
+      213: 4454092529091730109
+    second: dog_left_36
+  - first:
+      213: -4290133201346120252
+    second: dog_left_37
+  - first:
+      213: -5869533985710721852
+    second: dog_left_38
+  - first:
+      213: -7888559862503879286
+    second: dog_left_39
+  - first:
+      213: -1338131810869616663
+    second: dog_left_40
+  - first:
+      213: -8319702029131174376
+    second: dog_left_41
+  - first:
+      213: 60121790634670617
+    second: dog_left_42
+  - first:
+      213: -3443040803467906918
+    second: dog_left_43
+  - first:
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      213: 21300088
+    second: pz6VvbB_44
+=======
+=======
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      213: -4417673166631498311
+    second: dog_left_44
+  - first:
+      213: 4431284538163608058
+    second: dog_right_0
+  - first:
+      213: -917896807731316375
+    second: dog_right_1
+  - first:
+      213: 2620604440729988482
+    second: dog_right_2
+  - first:
+      213: -7761070871475475333
+    second: dog_right_3
+  - first:
+      213: -3019898961649254647
+    second: dog_right_4
+  - first:
+      213: 434848447160068953
+    second: dog_right_5
+  - first:
+      213: 8645782886742564011
+    second: dog_right_6
+  - first:
+      213: -3548691083650790512
+    second: dog_right_7
+  - first:
+      213: -6555616426348661993
+    second: dog_right_8
+  - first:
+      213: 1522222138476904032
+    second: dog_right_9
+  - first:
+      213: 4569327190997510935
+    second: dog_right_10
+  - first:
+      213: -724452960043130817
+    second: dog_right_11
+  - first:
+      213: 4146525465579827128
+    second: dog_right_12
+  - first:
+      213: 3048560311064750794
+    second: dog_right_13
+  - first:
+      213: -7346529837408365993
+    second: dog_right_14
+  - first:
+      213: -1592037969180558557
+    second: dog_right_15
+  - first:
+      213: -4400295026130610732
+    second: dog_right_16
+  - first:
+      213: -2828556672657342511
+    second: dog_right_17
+  - first:
+      213: -1238969578060493257
+    second: dog_right_18
+  - first:
+      213: -3437693632393065101
+    second: dog_right_19
+  - first:
+      213: -2015027174364953314
+    second: dog_right_20
+  - first:
+      213: 2060891638200629172
+    second: dog_right_21
+  - first:
+      213: 4449573387978875455
+    second: dog_right_22
+  - first:
+      213: -3106868246374410334
+    second: dog_right_23
+  - first:
+      213: -8307775798539396407
+    second: dog_right_24
+  - first:
+      213: -6822076263063753472
+    second: dog_right_25
+  - first:
+      213: 4541196142341328424
+    second: dog_right_26
+  - first:
+      213: -6970377533638283093
+    second: dog_right_27
+  - first:
+      213: -4008367371952101064
+    second: dog_right_28
+  - first:
+      213: -3436988854498429185
+    second: dog_right_29
+  - first:
+      213: 8156274572690566088
+    second: dog_right_30
+  - first:
+      213: -3734026808624445696
+    second: dog_right_31
+  - first:
+      213: 3694622324295353856
+    second: dog_right_32
+  - first:
+      213: 8125983062703227128
+    second: dog_right_33
+  - first:
+      213: 5938972279625818123
+    second: dog_right_34
+  - first:
+      213: -2397457750171597898
+    second: dog_right_35
+  - first:
+      213: -4894224440679466817
+    second: dog_right_36
+  - first:
+      213: 6573288627773540660
+    second: dog_right_37
+  - first:
+      213: -4348261170071538462
+    second: dog_right_38
+  - first:
+      213: 3135609067358921654
+    second: dog_right_39
+  - first:
+      213: 7484116733000011627
+    second: dog_right_40
+  - first:
+      213: -6966976990124811201
+    second: dog_right_41
+  - first:
+      213: 836594345440759174
+    second: dog_right_42
+  - first:
+      213: 6896696207273678000
+    second: dog_right_43
+  - first:
+      213: -8838624568637988311
+    second: dog_right_44
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+  - first:
+      213: 3977922187468345585
+    second: dog_look_left_0
+  - first:
+      213: -15803170737291029
+    second: dog_look_left_1
+  - first:
+      213: 7955277679697982148
+    second: dog_look_left_2
+  - first:
+      213: 2641611440796034985
+    second: dog_look_left_3
+  - first:
+      213: -8163482048680351423
+    second: dog_look_left_4
+  - first:
+      213: 7003414065971327471
+    second: dog_look_left_5
+  - first:
+      213: -2340210971979129480
+    second: dog_look_left_6
+  - first:
+      213: -146588498023361718
+    second: dog_look_left_7
+  - first:
+      213: 7503400600301378044
+    second: dog_look_left_8
+  - first:
+      213: -2223091820194012213
+    second: dog_look_left_9
+  - first:
+      213: -4397874603193550927
+    second: dog_look_left_10
+  - first:
+      213: 4808410247544585627
+    second: dog_look_left_11
+  - first:
+      213: -4579908873315458461
+    second: dog_look_left_12
+  - first:
+      213: 3974764311922189301
+    second: dog_look_left_13
+  - first:
+      213: -4787177504542073650
+    second: dog_look_left_14
+  - first:
+      213: 1276835633142692853
+    second: dog_look_left_15
+  - first:
+      213: -3467003113932813345
+    second: dog_look_left_16
+  - first:
+      213: 4298300929766691972
+    second: dog_look_left_17
+  - first:
+      213: 5048881536964403563
+    second: dog_look_left_18
+  - first:
+      213: 8768171424576579355
+    second: dog_look_left_19
+  - first:
+      213: 3308372434512155738
+    second: dog_look_left_20
+  - first:
+      213: -6509443611847464763
+    second: dog_look_left_21
+  - first:
+      213: -1189281380175525128
+    second: dog_look_left_22
+  - first:
+      213: -4282360980109900293
+    second: dog_look_left_23
+  - first:
+      213: -5312004398947513303
+    second: dog_look_left_24
+  - first:
+      213: 7162089788397401690
+    second: dog_look_left_25
+  - first:
+      213: 875774925110683262
+    second: dog_look_left_26
+  - first:
+      213: -8683524804169725047
+    second: dog_look_left_27
+  - first:
+      213: 3078836445367888920
+    second: dog_look_left_28
+  - first:
+      213: 712261387874168248
+    second: dog_look_left_29
+  - first:
+      213: 2405489009153605808
+    second: dog_look_left_30
+  - first:
+      213: 4204751671730591532
+    second: dog_look_left_31
+  - first:
+      213: -5246341662505195672
+    second: dog_look_left_32
+  - first:
+      213: 8470851023949785640
+    second: dog_look_left_33
+  - first:
+      213: 1156663758209532640
+    second: dog_look_left_34
+  - first:
+      213: -8811598605850691495
+    second: dog_look_left_35
+  - first:
+      213: -1307915371455054161
+    second: dog_look_left_36
+  - first:
+      213: -6356350587835375061
+    second: dog_look_left_37
+  - first:
+      213: -7717519742972768787
+    second: dog_look_left_38
+  - first:
+      213: -5536427625564249211
+    second: dog_look_left_39
+  - first:
+      213: -2706711673889802071
+    second: dog_look_left_40
+  - first:
+      213: -8026416038997452317
+    second: dog_look_left_41
+  - first:
+      213: -5308476380544820729
+    second: dog_look_left_42
+  - first:
+      213: -5991901736283523086
+    second: dog_look_left_43
+  - first:
+      213: 5482490926345523567
+    second: dog_look_left_44
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_0
+=======
+      name: dog_look_left_0
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_0
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 324
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 3c6a42c9e36fb3246b990fca25dced28
+      internalID: 21300000
+=======
+      spriteID: 1f01230572b643730800000000000000
+      internalID: 3977922187468345585
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 8261fa189cc47cc20800000000000000
+      internalID: 3226632086382122536
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_1
+=======
+      name: dog_look_left_1
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_1
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 324
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 10f6f64d53ff09849b707a21cc278d86
+      internalID: 21300002
+=======
+      spriteID: be001e5991bd7cff0800000000000000
+      internalID: -15803170737291029
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 1afdd45414d0fc530800000000000000
+      internalID: 3877332378176053153
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_2
+=======
+      name: dog_look_left_2
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_2
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 324
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 2b4f9c78fb41aae4bb65a9521002ae73
+      internalID: 21300004
+=======
+      spriteID: 4c2fdfb96e2d66e60800000000000000
+      internalID: 7955277679697982148
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 1d22214e2755d8d20800000000000000
+      internalID: 3282373655363986129
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_3
+=======
+      name: dog_look_left_3
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_3
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 323
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 9f75063607eb2d14eafe6db9e313feff
+      internalID: 21300006
+=======
+      spriteID: 9a7614b0c93e8a420800000000000000
+      internalID: 2641611440796034985
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: e9e58f55ec998aae0800000000000000
+      internalID: -1537810161262371170
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_4
+=======
+      name: dog_look_left_4
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_4
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 332
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 6b5bcc703ec8d9c48aaa7396e92a9e6c
+      internalID: 21300008
+=======
+      spriteID: 1492126245c75be80800000000000000
+      internalID: -8163482048680351423
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: ce2c8c86eb9be8730800000000000000
+      internalID: 4003341346231861996
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_5
+=======
+      name: dog_look_left_5
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_5
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 323
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: fb2b8f5765d09604db25472350465b09
+      internalID: 21300010
+=======
+      spriteID: fe1f131ccff113160800000000000000
+      internalID: 7003414065971327471
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: fabac5724c08dc900800000000000000
+      internalID: 706362296529365935
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_6
+=======
+      name: dog_look_left_6
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_6
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 260
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 8158b8525263aa34ab491906b8a60759
+      internalID: 21300012
+=======
+      spriteID: 87d56bb1586e58fd0800000000000000
+      internalID: -2340210971979129480
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 2cd25de6c0a6c6280800000000000000
+      internalID: -9048740949662552638
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_7
+=======
+      name: dog_look_left_7
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_7
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 260
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 7d4331a4f4b9f7247ad11d15d0ff4bc8
+      internalID: 21300014
+=======
+      spriteID: a43d827a98637fdf0800000000000000
+      internalID: -146588498023361718
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: c1efe5151033b0230800000000000000
+      internalID: 3606032007393377820
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_8
+=======
+      name: dog_look_left_8
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_8
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 260
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: adde952785b01504f990ce7708e63225
+      internalID: 21300016
+=======
+      spriteID: cf99a6c571f612860800000000000000
+      internalID: 7503400600301378044
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 09df2a1a5a199ef60800000000000000
+      internalID: 8064136748351028624
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_9
+=======
+      name: dog_look_left_9
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_9
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 259
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: eadf5b1904e1bf74c90d78001db82342
+      internalID: 21300018
+=======
+      spriteID: bc3624a94cdf521e0800000000000000
+      internalID: -2223091820194012213
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 9751fd9b79e9ac7a0800000000000000
+      internalID: -6356093549584378503
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_10
+=======
+      name: dog_look_left_10
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_10
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 268
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 308632176055b214eb6bb07b11e210a9
+      internalID: 21300020
+=======
+      spriteID: 1b7bfed695c97f2c0800000000000000
+      internalID: -4397874603193550927
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 33156624decccd310800000000000000
+      internalID: 1431244100990292275
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_11
+=======
+      name: dog_look_left_11
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_11
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 259
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 6a04679373ada37419693e5c336cf0c6
+      internalID: 21300022
+=======
+      spriteID: b9d3e33e4a7eab240800000000000000
+      internalID: 4808410247544585627
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: fffd41d61ee7dd2a0800000000000000
+      internalID: -6711068363049345025
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_12
+=======
+      name: dog_look_left_12
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_12
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 195
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 2a79ac07abd5aee4e8c8f76259cb3ca8
+      internalID: 21300024
+=======
+      spriteID: 3626f562525e070c0800000000000000
+      internalID: -4579908873315458461
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 92f36c1748b318720800000000000000
+      internalID: 2846621879505403689
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_13
+=======
+      name: dog_look_left_13
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_13
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 195
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 73e37deeb3c910c4da0d2ca3a57ff10a
+      internalID: 21300026
+=======
+      spriteID: 5f3a50e1513392730800000000000000
+      internalID: 3974764311922189301
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: c4f2969eafbb4c9c0800000000000000
+      internalID: -3907791890318545076
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_14
+=======
+      name: dog_look_left_14
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_14
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 196
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 65ab9a3aa5452284782ccb71088ac4b1
+      internalID: 21300028
+=======
+      spriteID: ecc57055c67809db0800000000000000
+      internalID: -4787177504542073650
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 49248dd330657b120800000000000000
+      internalID: 2429505095912145556
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_15
+=======
+      name: dog_look_left_15
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_15
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 196
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 66f514dce83435947bfe98afd9b80eae
+      internalID: 21300030
+=======
+      spriteID: 5fbf70e4e3b38b110800000000000000
+      internalID: 1276835633142692853
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: c3468644446653bb0800000000000000
+      internalID: -4956943371459861444
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_16
+=======
+      name: dog_look_left_16
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_16
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 196
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 258fd8a5485f4ad48ab49eb25badaedf
+      internalID: 21300032
+=======
+      spriteID: fdb8cde690bb2efc0800000000000000
+      internalID: -3467003113932813345
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 49381fbc8a88ad520800000000000000
+      internalID: 2727642782883742612
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_17
+=======
+      name: dog_look_left_17
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_17
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 196
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 3343a7139689e7442854c6e46bd34396
+      internalID: 21300034
+=======
+      spriteID: 48499781ce1a6ab30800000000000000
+      internalID: 4298300929766691972
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 25b34afcf4aa6b960800000000000000
+      internalID: 7617463079506557778
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_18
+=======
+      name: dog_look_left_18
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_18
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 131
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: f9bccae8755f4c6479893396f0031059
+      internalID: 21300036
+=======
+      spriteID: b61aacbf10b311640800000000000000
+      internalID: 5048881536964403563
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: f5447f3d66470d340800000000000000
+      internalID: 4886533580688671839
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_19
+=======
+      name: dog_look_left_19
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_19
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 131
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: dea114dcca9522041b1f8ad6364e4a2e
+      internalID: 21300038
+=======
+      spriteID: b172e93747dcea970800000000000000
+      internalID: 8768171424576579355
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: e2ba44018027efee0800000000000000
+      internalID: -1225416669639955666
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_20
+=======
+      name: dog_look_left_20
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_20
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 131
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 6809621e1f4fe9d43ac73ea22c3d1a06
+      internalID: 21300040
+=======
+      spriteID: a549acf5333b9ed20800000000000000
+      internalID: 3308372434512155738
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 9e2ff7edb597d0fa0800000000000000
+      internalID: -5832872506893012247
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_21
+=======
+      name: dog_look_left_21
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_21
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 131
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 99e13c4d60c88c948936288bb71a9989
+      internalID: 21300042
+=======
+      spriteID: 5c86566068fc9a5a0800000000000000
+      internalID: -6509443611847464763
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 9131c0489dfe25c10800000000000000
+      internalID: 2040957298654581529
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_22
+=======
+      name: dog_look_left_22
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_22
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 140
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: e3406322437e8a34ba50d133fa625103
+      internalID: 21300044
+=======
+      spriteID: 8fac6a4c2e2de7fe0800000000000000
+      internalID: -1189281380175525128
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: f956505952be77a50800000000000000
+      internalID: 6518937532288558495
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_23
+=======
+      name: dog_look_left_23
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_23
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 131
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: cbea6f78abf55084aa115e151cd3fc58
+      internalID: 21300046
+=======
+      spriteID: bf54e84a06ff194c0800000000000000
+      internalID: -4282360980109900293
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 666f748760f075870800000000000000
+      internalID: 8671416127987381862
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_24
+=======
+      name: dog_look_left_24
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_24
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 131
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: adcd4764854819a428cfae16b46c9cb6
+      internalID: 21300048
+=======
+      spriteID: 92ccb63b428f746b0800000000000000
+      internalID: -5312004398947513303
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: dce0dfc16c0535940800000000000000
+      internalID: 5283655599655816909
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_25
+=======
+      name: dog_look_left_25
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_25
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 131
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 75eb712ac92fced4cb12b54648c5d9bf
+      internalID: 21300050
+=======
+      spriteID: a5631e657bad46360800000000000000
+      internalID: 7162089788397401690
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 31b4246a25b8ccd40800000000000000
+      internalID: 5606008823262366483
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_26
+=======
+      name: dog_look_left_26
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_26
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 131
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 5b0fa090b3112a34995e510b7cc4f039
+      internalID: 21300052
+=======
+      spriteID: e76aa6287a0672c00800000000000000
+      internalID: 875774925110683262
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: bbc5d16c10780ba70800000000000000
+      internalID: 8840714510216813755
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_27
+=======
+      name: dog_look_left_27
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_27
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 66
+        width: 63
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 4890af1f002a76b44826fcbde2f76f1f
+      internalID: 21300054
+=======
+      spriteID: 98b8b29a23ced7780800000000000000
+      internalID: -8683524804169725047
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: d8d47ce6116ecfd60800000000000000
+      internalID: 7925462406812618125
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_28
+=======
+      name: dog_look_left_28
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_28
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 66
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 84666a0781701d8418ec33073404b4b0
+      internalID: 21300056
+=======
+      spriteID: 81ceda74f693aba20800000000000000
+      internalID: 3078836445367888920
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: b0876470db040ebc0800000000000000
+      internalID: -3755930908611938293
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_29
+=======
+      name: dog_look_left_29
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_29
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 66
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 0d015ce0e8bb658488932c737750d4c5
+      internalID: 21300058
+=======
+      spriteID: 8bd677365f572e900800000000000000
+      internalID: 712261387874168248
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: dfcf827e7359641a0800000000000000
+      internalID: -6825604117899444995
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_30
+=======
+      name: dog_look_left_30
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_30
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 67
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: c1d9135bdedcbc041a4faf73d605939f
+      internalID: 21300060
+=======
+      spriteID: 0b005bd4283026120800000000000000
+      internalID: 2405489009153605808
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 3616b2c8b40b5f470800000000000000
+      internalID: 8427836116214440291
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_31
+=======
+      name: dog_look_left_31
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_31
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 67
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 9ca7710a7ee968b47a2ca51503331e32
+      internalID: 21300062
+=======
+      spriteID: c275b322e574a5a30800000000000000
+      internalID: 4204751671730591532
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: eb6e16015181c9cc0800000000000000
+      internalID: -3703058314857158978
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_32
+=======
+      name: dog_look_left_32
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_32
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 68
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: d7b5c9528a43f1640b6b42373d00f593
+      internalID: 21300064
+=======
+      spriteID: 867ab04ed004137b0800000000000000
+      internalID: -5246341662505195672
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: efacd9571cbd010b0800000000000000
+      internalID: -5759862299458417922
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_33
+=======
+      name: dog_look_left_33
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_33
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 69
+        width: 61
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: dfda302ef48739f4ea50eb027d665356
+      internalID: 21300066
+=======
+      spriteID: 82ae7c330228e8570800000000000000
+      internalID: 8470851023949785640
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 160337be7030cd6f0800000000000000
+      internalID: -658648112953085855
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_34
+=======
+      name: dog_look_left_34
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_34
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 69
+        width: 61
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 0a1840cf008836f48a5f55e6909b2c7b
+      internalID: 21300068
+=======
+      spriteID: 0e2c5a05f8b4d0010800000000000000
+      internalID: 1156663758209532640
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 27b6f8e5e0efac9f0800000000000000
+      internalID: -447265875300488334
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_35
+=======
+      name: dog_look_left_35
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_35
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 69
+        width: 61
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 8759f114c308f7048b05384bb205027c
+      internalID: 21300070
+=======
+      spriteID: 95831faf0c9e6b580800000000000000
+      internalID: -8811598605850691495
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: b768b7e4307ed16b0800000000000000
+      internalID: -5323845183094421893
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_36
+=======
+      name: dog_look_left_36
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_36
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: d3d48431e28bd5f4c9c4fa69f932c552
+      internalID: 21300072
+=======
+      spriteID: faef52836e959dde0800000000000000
+      internalID: -1307915371455054161
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: dbadb317e8d10dd30800000000000000
+      internalID: 4454092529091730109
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_37
+=======
+      name: dog_look_left_37
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_37
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 13
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: aec13ae67929c3d49b36ed4c47a2267d
+      internalID: 21300074
+=======
+      spriteID: b222a3851d4b9c7a0800000000000000
+      internalID: -6356350587835375061
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 4c5b7ae55926674c0800000000000000
+      internalID: -4290133201346120252
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_38
+=======
+      name: dog_look_left_38
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_38
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 4
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: cdff523f872f2594f8b631fe405d4334
+      internalID: 21300076
+=======
+      spriteID: ded4b05deacd5e490800000000000000
+      internalID: -7717519742972768787
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 4c431a820f93b8ea0800000000000000
+      internalID: -5869533985710721852
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_39
+=======
+      name: dog_look_left_39
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_39
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 550a5ce8cd9f6004eb6b6a3acce8b6f6
+      internalID: 21300078
+=======
+      spriteID: 58365956868aa23b0800000000000000
+      internalID: -5536427625564249211
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: a8d4d06b994368290800000000000000
+      internalID: -7888559862503879286
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_40
+=======
+      name: dog_look_left_40
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_40
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 974c89bc6b6e85946ae5224789284dac
+      internalID: 21300080
+=======
+      spriteID: 9a83568c214df6ad0800000000000000
+      internalID: -2706711673889802071
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 9ef577e25300e6de0800000000000000
+      internalID: -1338131810869616663
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_41
+=======
+      name: dog_look_left_41
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_41
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 4
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 7bd0d8690bed9c146b467125c188cc48
+      internalID: 21300082
+=======
+      spriteID: 3e91f0863217c9090800000000000000
+      internalID: -8026416038997452317
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 81e2a8c851b7a8c80800000000000000
+      internalID: -8319702029131174376
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_42
+=======
+      name: dog_look_left_42
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_42
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 33b46b4cf08825446af26f95be545735
+      internalID: 21300084
+=======
+      spriteID: 70a131f7bd08456b0800000000000000
+      internalID: -5308476380544820729
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 91a3a06337895d000800000000000000
+      internalID: 60121790634670617
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_43
+=======
+      name: dog_look_left_43
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_43
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 217884ec29d52d342943c0c119bacdec
+      internalID: 21300086
+=======
+      spriteID: 2f736c70e1d78dca0800000000000000
+      internalID: -5991901736283523086
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: a90be1a91acd730d0800000000000000
+      internalID: -3443040803467906918
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      name: pz6VvbB_44
+=======
+      name: dog_look_left_44
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      name: dog_left_44
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 2
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+<<<<<<< HEAD:Assets/Sprites/Characters/dog.png.meta
+      spriteID: 5b99823af7a28e44586d9f3348f27934
+      internalID: 21300088
+=======
+      spriteID: f6190253378b51c40800000000000000
+      internalID: 5482490926345523567
+>>>>>>> 1afe224... fix and enemy initial rotation:Assets/Sprites/Characters/dog_look_left.png.meta
+=======
+      spriteID: 9bd872929a541b2c0800000000000000
+      internalID: -4417673166631498311
+>>>>>>> c288930... add dog move left/right animation:Assets/Sprites/Characters/Dog/dog_left.png.meta
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
