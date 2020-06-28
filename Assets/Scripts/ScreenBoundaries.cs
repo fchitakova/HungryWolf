@@ -24,21 +24,26 @@ public class ScreenBoundaries
 
 
 
-    /*
-    public static Vector2 getRandomPositionOutOfScreen() {
-        int direction = -1;
-        Vector2 spawnPosition = new Vector2(direction * screenBoundaries.x , direction * screenBoundaries.y );
-        spawnPosition.x += direction*Random.Range(0.3f, 1.3f);
-        spawnPosition.y += direction* Random.Range(0.3f, 1.3f);
-       
-        return spawnPosition;
-    }*/
 
-    public static Vector2 getRandomPositionInsideScreenBoundaries(Vector2 startPosition)
+
+    public static Vector2 getRandomFreePositionInsideScreenBoundaries()
     {
-        float randomX = Random.Range((-screenBoundaries.x)+startPosition.x, screenBoundaries.x-startPosition.x);
-        float randomY = Random.Range((-screenBoundaries.y)+startPosition.y,screenBoundaries.y-startPosition.y);
-        return new Vector2(randomX, randomY);
+        Vector2 randomPosition;
+        do
+        {
+            float randomX = Random.Range(-screenBoundaries.x, screenBoundaries.x);
+            float randomY = Random.Range(-screenBoundaries.y, screenBoundaries.y);
+            randomPosition = new Vector2(randomX, randomY);
+        } while (!isPositionFree(randomPosition));
+
+        return randomPosition;
+
     }
 
+
+    private static bool isPositionFree(Vector2 position)
+    {
+        bool isPositionFree = (Physics2D.OverlapCircle(position, 1.5f) != null);
+        return isPositionFree;
+    }
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Pathfinding;
+using System.Collections;
 using UnityEngine;
 using static ScreenBoundaries;
 
@@ -7,25 +8,21 @@ public class Sheep : MonoBehaviour
     [SerializeField]
     private float speed = 0.2f;
 
-    private Vector2 target;
-    private Rigidbody2D rigidBody;
+    private AIDestinationSetter destinationSetter;
 
     void Start()
     {
-        rigidBody = GetComponent<Rigidbody2D>();
+        destinationSetter = GetComponent<AIDestinationSetter>();
         StartCoroutine(MoveToTarget());
     }
 
 
     IEnumerator MoveToTarget()
-    { 
-        target = getRandomFreePosition();
+    {
+        Transform target = getRandomTarget();
        
-        while (!isTargetReached())
+        while (!isTargetReached(target))
         {
-
-            rigidBody.MovePosition(target * speed * Time.fixedDeltaTime);
-
             yield return null;
         }
 
@@ -35,31 +32,21 @@ public class Sheep : MonoBehaviour
         StartCoroutine(MoveToTarget());
     }
 
-    private Vector2 getRandomFreePosition()
+    private Transform getRandomTarget()
     {
-        Vector2 randomPosition = getRandomPositionInsideScreenBoundaries(rigidBody.transform.position);
-        while (!isPositionFree(randomPosition))
-        {
-            randomPosition = getRandomPositionInsideScreenBoundaries(rigidBody.transform.position);
-        }
+        Vector2 target = getRandomFreePositionInsideScreenBoundaries();
+        GameObject targetObject = new GameObject();
+        targetObject.transform.position = target;
 
-        return randomPosition;
+        return targetObject.transform;
     }
 
 
-    private bool isTargetReached() {
+    private bool isTargetReached(Transform target) {
         float delta = 0.5f;
-        float distanceToTarget = Vector2.Distance(rigidBody.position, target);
+        float distanceToTarget = Vector2.Distance(transform.position, target.position);
 
         return distanceToTarget <= delta;
-    }
-    
-
-
-    private bool isPositionFree(Vector2 position)
-    {
-        bool isPositionFree = (Physics2D.OverlapCircle(position, 1.5f) != null);
-        return isPositionFree;
     }
     
 }
