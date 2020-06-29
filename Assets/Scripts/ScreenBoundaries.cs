@@ -26,7 +26,7 @@ public class ScreenBoundaries
 
 
 
-    public static Vector2 getRandomFreePositionInsideScreenBoundaries()
+    public static Vector2 getRandomFreePositionInScreenBoundaries()
     {
         Vector2 randomPosition;
         do

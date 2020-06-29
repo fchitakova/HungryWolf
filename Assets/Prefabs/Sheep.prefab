@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 7742031544663505843}
   - component: {fileID: 6619235290627483446}
   - component: {fileID: 3253077518178193117}
-  - component: {fileID: 8212063728848204887}
-  - component: {fileID: -7041078059357071605}
-  - component: {fileID: 7843935819327708983}
+  - component: {fileID: 202855620981660181}
+  - component: {fileID: 7283585553910906665}
+  - component: {fileID: 3138170070753961006}
   m_Layer: 11
   m_Name: Sheep
   m_TagString: FoodTarget
@@ -68,7 +68,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -146,8 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34e52b63a980074b924c6ea44614843, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
---- !u!114 &8212063728848204887
+--- !u!114 &202855620981660181
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,7 +174,7 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
---- !u!114 &-7041078059357071605
+--- !u!114 &7283585553910906665
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,21 +187,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 2
-  radius: 0.5
+  radius: 0.3
   height: 2
-  repathRate: 0.5
+  repathRate: 0.3
   canSearch: 1
   canMove: 1
-  maxSpeed: 1
+  maxSpeed: 0.5
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8192
   centerOffsetCompatibility: NaN
   orientation: 1
   enableRotation: 0
   targetCompatibility: {fileID: 0}
-  maxAcceleration: -2.5
+  maxAcceleration: 5
   rotationSpeed: 360
   slowdownDistance: 0.6
   pickNextWaypointDist: 2
@@ -211,7 +210,7 @@ MonoBehaviour:
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 1
---- !u!114 &7843935819327708983
+--- !u!114 &3138170070753961006
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

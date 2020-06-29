@@ -5,48 +5,50 @@ using static ScreenBoundaries;
 
 public class Sheep : MonoBehaviour
 {
-    [SerializeField]
-    private float speed = 0.2f;
+    Transform target;
+    Rigidbody2D rigidBody;
 
-    private AIDestinationSetter destinationSetter;
+    AIPath aiPath;
+    AIDestinationSetter destinationSetter;
 
-    void Start()
+
+    public void Start()
     {
+        target = new GameObject().transform;
+        rigidBody = GetComponent<Rigidbody2D>();
+
+        aiPath = GetComponent<AIPath>();
         destinationSetter = GetComponent<AIDestinationSetter>();
-        StartCoroutine(MoveToTarget());
-    }
-
-
-    IEnumerator MoveToTarget()
-    {
-        Transform target = getRandomTarget();
        
-        while (!isTargetReached(target))
-        {
-            yield return null;
-        }
-
-        float randomWaitTime = Random.Range(0.5f, 5f);
-        yield return new WaitForSeconds(randomWaitTime);
-        
-        StartCoroutine(MoveToTarget());
+        StartCoroutine(Wander());
     }
 
-    private Transform getRandomTarget()
+    private IEnumerator Wander()
     {
-        Vector2 target = getRandomFreePositionInsideScreenBoundaries();
-        GameObject targetObject = new GameObject();
-        targetObject.transform.position = target;
+        while (true)
+        {
+            target.position = getRandomFreePositionInScreenBoundaries();
+            destinationSetter.target = target;
 
-        return targetObject.transform;
+            while (!isTargetReached())
+            {
+                yield return null;
+            }
+
+            yield return new WaitForSeconds(Random.Range(0.5f, 5f));
+        }
     }
 
+    private bool isTargetReached()
+    {
+        Vector2 currentPosition = rigidBody.position;
+        Vector2 targetPosition = target.position;
 
-    private bool isTargetReached(Transform target) {
-        float delta = 0.5f;
-        float distanceToTarget = Vector2.Distance(transform.position, target.position);
+        float sqrRemainingDistance = (currentPosition - targetPosition).sqrMagnitude;
 
-        return distanceToTarget <= delta;
+        bool isTargetReached = sqrRemainingDistance <= aiPath.endReachedDistance;
+
+        return isTargetReached;
     }
-    
+
 }
