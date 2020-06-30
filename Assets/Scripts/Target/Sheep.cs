@@ -7,6 +7,7 @@ public class Sheep : MonoBehaviour
 {
     Transform target;
     Rigidbody2D rigidBody;
+    Animator animator;
 
     AIPath aiPath;
     AIDestinationSetter destinationSetter;
@@ -16,6 +17,7 @@ public class Sheep : MonoBehaviour
     {
         target = new GameObject().transform;
         rigidBody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
 
         aiPath = GetComponent<AIPath>();
         destinationSetter = GetComponent<AIDestinationSetter>();
@@ -50,5 +52,13 @@ public class Sheep : MonoBehaviour
 
         return isTargetReached;
     }
+
+    public void Die()
+    {
+        animator.SetBool("Attacked", true);
+        //play attacked animation
+        //disable the game object
+    }
+
 
 }
