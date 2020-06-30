@@ -11,6 +11,12 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rigidBody;
     private Animator animator;
+
+    private Transform attackPoint;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
+
+
  
     void Start()
     {
@@ -25,6 +31,14 @@ public class PlayerController : MonoBehaviour
         float playerHeight = transform.GetComponent<SpriteRenderer>().bounds.size.y / 2;
         screenBoundaries = new ScreenBoundaries(playerWidth, playerHeight);
      }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag( "FoodTarget"))
+              Debug.Log("Collisiion!");
+    }
+
+
 
     void Update()
     {
@@ -47,7 +61,14 @@ public class PlayerController : MonoBehaviour
 
     private void Attack()
     {
-        //play an attack animation
+        animator.SetTrigger("Attack");
+        Collider2D[]hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        
+        foreach(Collider2D enemy in hitEnemies)
+        {
+            Debug.Log("We hit : " + enemy.name);
+        }
+        
         //detect enemies in range of attack
         //damage them
     }
