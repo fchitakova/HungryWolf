@@ -1,16 +1,16 @@
 ﻿using UnityEngine;
 
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
 
     [SerializeField]
     private float moveSpeed = 2.5f;
+    private Vector2 movement;
+    private ScreenBoundaries screenBoundaries;
 
     private Rigidbody2D rigidBody;
     private Animator animator;
-    private Vector2 movement;
-    private ScreenBoundaries screenBoundaries;
  
     void Start()
     {
@@ -27,26 +27,45 @@ public class PlayerMovement : MonoBehaviour
      }
 
     void Update()
-    { 
+    {
+        GetMovementInput();
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Attack();
+        }
+    }
+
+    private void GetMovementInput()
+    {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        
+
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
+    private void Attack()
+    {
+        //play an attack animation
+        //detect enemies in range of attack
+        //damage them
+    }
 
     void FixedUpdate()
     {
-        Vector2 currentPosition = rigidBody.position;
-        Vector2 newPosition = currentPosition + (movement* moveSpeed *Time.fixedDeltaTime);
-
-        Vector2 newPositionInScreenBoundaries = screenBoundaries.clampNewPositionInScreenBoundaries(newPosition);
-
-        rigidBody.MovePosition(newPositionInScreenBoundaries);
+        Move();
 
     }
 
-    
+    private void Move()
+    {
+        Vector2 currentPosition = rigidBody.position;
+        Vector2 newPosition = currentPosition + (movement * moveSpeed * Time.fixedDeltaTime);
+
+        Vector2 newPositionInScreenBoundaries = screenBoundaries.clampNewPositionInScreenBoundaries(newPosition);
+        rigidBody.MovePosition(newPositionInScreenBoundaries);
+    }
+
 
 }
