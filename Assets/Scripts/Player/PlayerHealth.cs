@@ -1,15 +1,18 @@
 ﻿
 using UnityEngine;
 
-public class PlayerHealth
-{
+public class PlayerHealth : MonoBehaviour
+{ 
     private const int maxHealth = 100;
-
     private int currentHealth;
 
-    public PlayerHealth()
+    [SerializeField]
+    HealthBar healthBar;
+
+    public  void Start()
     {
         currentHealth = maxHealth;
+        healthBar.SetHealth(currentHealth);
     }
 
     public void Damage(int damageAmount)
@@ -19,6 +22,7 @@ public class PlayerHealth
         {
             currentHealth = 0;
         }
+        healthBar.SetHealth(currentHealth);
     }
 
     public void Heal(int healAmount)
@@ -28,6 +32,7 @@ public class PlayerHealth
         {
             currentHealth = maxHealth;
         }
+        healthBar.SetHealth(currentHealth);
     }
     
 }
