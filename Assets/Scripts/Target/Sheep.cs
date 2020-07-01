@@ -1,7 +1,9 @@
 ﻿using Pathfinding;
+using System;
 using System.Collections;
 using UnityEngine;
 using static ScreenBoundaries;
+using Random = UnityEngine.Random;
 
 public class Sheep : MonoBehaviour
 {
@@ -11,6 +13,8 @@ public class Sheep : MonoBehaviour
 
     AIPath aiPath;
     AIDestinationSetter destinationSetter;
+
+    public event EventHandler OnSheepAttacked;
 
 
     public void Start()
@@ -53,11 +57,10 @@ public class Sheep : MonoBehaviour
         return isTargetReached;
     }
 
-    public void Die()
+    public void GetAttacked()
     {
         animator.SetBool("Attacked", true);
-        //play attacked animation
-        //disable the game object
+        OnSheepAttacked?.Invoke(this, EventArgs.Empty);
     }
 
 

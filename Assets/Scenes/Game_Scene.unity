@@ -403,8 +403,8 @@ GameObject:
   - component: {fileID: 1175419721}
   - component: {fileID: 1175419722}
   - component: {fileID: 1175419724}
-  - component: {fileID: 1175419723}
   - component: {fileID: 1175419725}
+  - component: {fileID: 1175419723}
   m_Layer: 14
   m_Name: Wolf
   m_TagString: Player
@@ -554,7 +554,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 919a1be32d0e9194f96ffc370a6c2e04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 1295856542}
 --- !u!114 &1175419724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -617,7 +616,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -299, y: 185}
+  m_AnchoredPosition: {x: -347, y: 202}
   m_SizeDelta: {x: 61.402473, y: 12.615482}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1295856541
@@ -679,7 +678,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1295856539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e572828e634b2c46bec1cee9c1ac405, type: 3}
+  m_Script: {fileID: 11500000, guid: 6052bf7d6b670884d9f52bcf41ed536f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1331708040
@@ -741,6 +740,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1415389891}
   - component: {fileID: 1415389890}
+  - component: {fileID: 1415389892}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -858,6 +858,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1415389892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415389889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29531c0e40e641149b20cf71483a6bf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 1295856542}
 --- !u!1 &1421956981
 GameObject:
   m_ObjectHideFlags: 0
@@ -1978,7 +1991,7 @@ MonoBehaviour:
   manualDebugFloorRoof: 0
   showSearchTree: 0
   unwalkableNodeDebugSize: 0.3
-  logPathResults: 1
+  logPathResults: 0
   maxNearestNodeDistance: 100
   scanOnStartup: 1
   fullGetNearestSearch: 0

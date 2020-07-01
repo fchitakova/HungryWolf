@@ -1,19 +1,20 @@
-﻿
+﻿using System;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
-{ 
-    private const int maxHealth = 100;
+{
+    private int maxHealth;
     private int currentHealth;
 
-    [SerializeField]
-    HealthBar healthBar;
+    public static Action<int> OnHealthChange;
 
-    public  void Start()
+    public void Start()
     {
-        currentHealth = maxHealth;
-        healthBar.SetHealth(currentHealth);
+        maxHealth = 100;
+        currentHealth = 100;
+
     }
+
 
     public void Damage(int damageAmount)
     {
@@ -22,7 +23,7 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth = 0;
         }
-        healthBar.SetHealth(currentHealth);
+        OnHealthChange?.Invoke(currentHealth);
     }
 
     public void Heal(int healAmount)
@@ -32,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
-        healthBar.SetHealth(currentHealth);
+        OnHealthChange?.Invoke(currentHealth);
     }
     
 }

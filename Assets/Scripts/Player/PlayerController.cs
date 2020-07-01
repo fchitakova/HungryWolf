@@ -1,17 +1,20 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 
 public class PlayerController : MonoBehaviour
 {
     private Animator animator;
-
     private bool canAttack;
     private Sheep attackedSheep;
+
+    private PlayerHealth playerHealth;
 
     public void Start()
     {
         canAttack = false;
         animator = GetComponent<Animator>();
+        playerHealth = GetComponent<PlayerHealth>();
     }
 
 
@@ -51,7 +54,8 @@ public class PlayerController : MonoBehaviour
 
         if (canAttack)
         {
-            attackedSheep.Die();
+            attackedSheep.GetAttacked();
+            playerHealth.Heal(10);
         }
     }
 
