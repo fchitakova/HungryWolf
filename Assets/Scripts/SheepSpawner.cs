@@ -14,6 +14,22 @@ public class SheepSpawner : MonoBehaviour
     private int currentSheepCount;
 
 
+    public void OnEnable()
+    {
+        Sheep.OnSheepAttacked += DecrementSheepCount;
+    }
+
+
+    private void DecrementSheepCount()
+    {
+        --currentSheepCount;
+    }
+
+    public void OnDisable()
+    {
+        Sheep.OnSheepAttacked -= DecrementSheepCount;
+    }
+
     void Start()
     {
         currentSheepCount = 0;
@@ -36,6 +52,7 @@ public class SheepSpawner : MonoBehaviour
         }
        
         yield return new WaitForSeconds(1f / spawnRate);
+        StartCoroutine(SpawnSheeps());
     }
 
 }

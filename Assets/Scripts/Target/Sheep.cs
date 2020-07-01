@@ -14,7 +14,7 @@ public class Sheep : MonoBehaviour
     AIPath aiPath;
     AIDestinationSetter destinationSetter;
 
-    public event EventHandler OnSheepAttacked;
+    public static event Action OnSheepAttacked;
 
 
     public void Start()
@@ -60,7 +60,7 @@ public class Sheep : MonoBehaviour
     public void GetAttacked()
     {
         animator.SetBool("Attacked", true);
-        OnSheepAttacked?.Invoke(this, EventArgs.Empty);
+        OnSheepAttacked?.Invoke();
     }
 
 
