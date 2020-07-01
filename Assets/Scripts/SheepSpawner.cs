@@ -14,6 +14,30 @@ public class SheepSpawner : MonoBehaviour
     private int currentSheepCount;
 
 
+    void Start()
+    {
+        currentSheepCount = 0;
+        StartCoroutine(SpawnSheeps());
+    }
+
+
+    private IEnumerator SpawnSheeps()
+    {
+        Vector2 spawnPosition;
+        while(currentSheepCount <= sheeps.Length)
+        {
+            spawnPosition = getRandomFreePositionInScreenBoundaries();
+            Instantiate(sheeps[Random.Range(0, sheeps.Length)], spawnPosition, Quaternion.identity);
+
+            ++currentSheepCount;
+
+            yield return null;
+        }
+       
+        yield return new WaitForSeconds(1f / spawnRate);
+        StartCoroutine(SpawnSheeps());
+    }
+
     public void OnEnable()
     {
         Sheep.OnSheepAttacked += DecrementSheepCount;
@@ -28,31 +52,6 @@ public class SheepSpawner : MonoBehaviour
     public void OnDisable()
     {
         Sheep.OnSheepAttacked -= DecrementSheepCount;
-    }
-
-    void Start()
-    {
-        currentSheepCount = 0;
-        StartCoroutine(SpawnSheeps());
-    }
-
-
-    private IEnumerator SpawnSheeps()
-    {
-        Vector2 spawnPosition;
-        while(currentSheepCount <= sheeps.Length)
-        {
-            Debug.Log("New sheep!");
-            spawnPosition = getRandomFreePositionInScreenBoundaries();
-            Instantiate(sheeps[Random.Range(0, sheeps.Length)], spawnPosition, Quaternion.identity);
-
-            ++currentSheepCount;
-
-            yield return null;
-        }
-       
-        yield return new WaitForSeconds(1f / spawnRate);
-        StartCoroutine(SpawnSheeps());
     }
 
 }

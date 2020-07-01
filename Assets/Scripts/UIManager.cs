@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     public void OnEnable()
     {
         PlayerHealth.OnHealthChange += UpdateHealthBar;
+        PlayerController.OnPlayerDead += EndGame;
     }
 
     private void UpdateHealthBar(int health)
@@ -17,8 +18,15 @@ public class UIManager : MonoBehaviour
         Debug.Log(health);
     }
 
+    private void EndGame()
+    {
+        //show game over
+        //show restart
+    }
+
     public void OnDisable()
     {
         PlayerHealth.OnHealthChange -= UpdateHealthBar;
+        PlayerController.OnPlayerDead -= EndGame;
     }
 }
