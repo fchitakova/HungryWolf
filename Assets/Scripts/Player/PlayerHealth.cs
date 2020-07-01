@@ -12,7 +12,6 @@ public class PlayerHealth : MonoBehaviour
     {
         maxHealth = 100;
         currentHealth = 100;
-
     }
 
 

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public const int HEAL_AMOUNT = 20;
     private Animator animator;
     private bool canAttack;
     private Sheep attackedSheep;
@@ -55,7 +56,7 @@ public class PlayerController : MonoBehaviour
         if (canAttack)
         {
             attackedSheep.GetAttacked();
-            playerHealth.Heal(10);
+            playerHealth.Heal(HEAL_AMOUNT);
         }
     }
 

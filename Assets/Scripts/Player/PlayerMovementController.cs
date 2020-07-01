@@ -1,8 +1,11 @@
-﻿using UnityEngine;
+﻿using System.IO.MemoryMappedFiles;
+using UnityEngine;
 using static ScreenBoundaries;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovementController : MonoBehaviour
 {
+    public const int MOVEMENT_HEALTH_DAMAGE = 5;
+
     [SerializeField]
     private float moveSpeed = 2.5f;
     private Vector2 movement;
@@ -18,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        transform.hasChanged = false;
         playerHealth = GetComponent<PlayerHealth>();
         rigidBody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -33,8 +37,8 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         GetMovementInput();
+        ChangePlayerHealth();
     }
-
 
     private void GetMovementInput()
     {
@@ -45,10 +49,17 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
+    private void ChangePlayerHealth()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            playerHealth.Damage(MOVEMENT_HEALTH_DAMAGE);
+        }
+    }
+
     void FixedUpdate()
     {
         Move();
-
     }
 
     private void Move()
@@ -59,7 +70,6 @@ public class PlayerMovement : MonoBehaviour
         Vector2 newPositionInScreenBoundaries = clampObjectPositionInScreenBoundaries(playerWidth, playerHeight, newPosition);
         rigidBody.MovePosition(newPositionInScreenBoundaries);
 
-        playerHealth.Damage(1);
     }
 
 }
