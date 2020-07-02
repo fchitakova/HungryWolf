@@ -8,7 +8,8 @@ public class GameManager : MonoBehaviour
 
     public SceneAsset startGameScene;
     public SceneAsset gameScene;
-   // public SceneAsset gameOverScene;
+    // public SceneAsset gameOverScene;
+
 
     public void LoadGame()
     {
