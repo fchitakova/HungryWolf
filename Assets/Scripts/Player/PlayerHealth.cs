@@ -3,26 +3,25 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    private int maxHealth;
+    public const int MIN_HEALTH = 0;
+    public const int MAX_HEALTH = 100;
+    
     private int currentHealth;
 
     public static Action<int> OnHealthChange;
-    public static Action OnPlayerDead;
 
     public void Start()
     {
-        maxHealth = 100;
-        currentHealth = 100;
+        currentHealth = MAX_HEALTH;
     }
 
 
     public void Damage(int damageAmount)
     {
         currentHealth -= damageAmount;
-        if(currentHealth < 0)
+        if(currentHealth < MIN_HEALTH)
         {
-            currentHealth = 0;
-            OnPlayerDead?.Invoke();
+            currentHealth = MIN_HEALTH;
         }
         OnHealthChange?.Invoke(currentHealth);
     }
@@ -30,11 +29,17 @@ public class PlayerHealth : MonoBehaviour
     public void Heal(int healAmount)
     {
         currentHealth += healAmount;
-        if(currentHealth > maxHealth)
+        if(currentHealth > MAX_HEALTH)
         {
-            currentHealth = maxHealth;
+            currentHealth = MAX_HEALTH;
         }
         OnHealthChange?.Invoke(currentHealth);
+        
+    }
+
+    public bool isPositive()
+    {
+        return currentHealth > MIN_HEALTH;
     }
     
 }

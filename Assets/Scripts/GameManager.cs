@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
 
     public void OnEnable()
     {
-        PlayerHealth.OnPlayerDead += LoadGameOverScene;
+        OnPlayerDead.OnPlayerDeadEvent += LoadGameOverScene;
     }
 
     public void LoadGameOverScene()
@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
 
     public void OnDisable()
     {
-        PlayerHealth.OnPlayerDead -= LoadGameOverScene;
+        OnPlayerDead.OnPlayerDeadEvent -= LoadGameOverScene;
     }
 
 

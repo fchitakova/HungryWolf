@@ -1,5 +1,4 @@
-﻿using System.IO.MemoryMappedFiles;
-using UnityEngine;
+﻿using UnityEngine;
 using static ScreenBoundaries;
 
 public class PlayerMovementController : MonoBehaviour
@@ -37,7 +36,7 @@ public class PlayerMovementController : MonoBehaviour
     void Update()
     {
         GetMovementInput();
-        ChangePlayerHealth();
+        AffectPlayerHealthFromMovement();
     }
 
     private void GetMovementInput()
@@ -49,12 +48,26 @@ public class PlayerMovementController : MonoBehaviour
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
-    private void ChangePlayerHealth()
+    private void AffectPlayerHealthFromMovement()
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             playerHealth.Damage(MOVEMENT_HEALTH_DAMAGE);
+            if (isPlayerExhausted())
+            {
+                TransitionToDeadState();
+            }
         }
+    }
+
+    private bool isPlayerExhausted()
+    {
+        return !playerHealth.isPositive() && animator.GetBool("Attacked") == false;
+    }
+
+    private void TransitionToDeadState()
+    {
+        animator.SetTrigger("Dead");
     }
 
     void FixedUpdate()

@@ -14,7 +14,6 @@ public class UIManager : MonoBehaviour
     private void UpdateHealthBar(int health)
     {
         healthBar.SetHealth(health);
-        Debug.Log(health);
     }
 
     public void OnDisable()

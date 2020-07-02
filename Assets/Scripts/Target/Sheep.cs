@@ -57,7 +57,7 @@ public class Sheep : MonoBehaviour
         return isTargetReached;
     }
 
-    public void GetAttacked()
+    public void Attack()
     {
         animator.SetBool("Attacked", true);
         OnSheepAttacked?.Invoke();

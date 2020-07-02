@@ -1,11 +1,9 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 
 public class PlayerController : MonoBehaviour
 {
     public const int HEAL_AMOUNT = 20;
-    public const int MAX_HEALTH = 100;
 
     private Animator animator;
     private bool canAttack;
@@ -56,25 +54,25 @@ public class PlayerController : MonoBehaviour
 
         if (canAttack)
         {
-            attackedSheep.GetAttacked();
+            attackedSheep.Attack();
             playerHealth.Heal(HEAL_AMOUNT);
         }
     }
 
     public void OnEnable()
     {
-        Enemy.OnEnemyAttack += Die;
+        Enemy.OnEnemyAttack += TransitionToAttackedState;
     }
 
     public void OnDisable()
     {
-        Enemy.OnEnemyAttack -= Die;
+        Enemy.OnEnemyAttack -= TransitionToAttackedState;
     }
 
-    private void Die()
+    private void TransitionToAttackedState()
     {
-        playerHealth.Damage(MAX_HEALTH);
-        animator.SetTrigger("Attacked");
+        animator.SetBool("Attacked",true);
+        playerHealth.Damage(PlayerHealth.MAX_HEALTH);
     }
 
 }

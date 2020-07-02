@@ -23,20 +23,24 @@ public class SheepSpawner : MonoBehaviour
 
     private IEnumerator SpawnSheeps()
     {
-        Vector2 spawnPosition;
         while(currentSheepCount <= sheeps.Length)
         {
-            spawnPosition = getRandomFreePositionInScreenBoundaries();
-            Instantiate(sheeps[Random.Range(0, sheeps.Length)], spawnPosition, Quaternion.identity);
-
-            ++currentSheepCount;
-
+            Debug.Log("Current sheep count: " + currentSheepCount + " max sheep count:"+sheeps.Length);
+            InstantiateNewSheep();
             yield return null;
         }
        
         yield return new WaitForSeconds(1f / spawnRate);
         StartCoroutine(SpawnSheeps());
     }
+
+    private void InstantiateNewSheep()
+    {
+        Vector2 spawnPosition = getRandomFreePositionInScreenBoundaries();
+        Instantiate(sheeps[Random.Range(0, sheeps.Length)], spawnPosition, Quaternion.identity);
+        ++currentSheepCount;
+    }
+
 
     public void OnEnable()
     {
