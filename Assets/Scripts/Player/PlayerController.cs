@@ -13,8 +13,6 @@ public class PlayerController : MonoBehaviour
 
     private PlayerHealth playerHealth;
 
-    public static Action OnPlayerDead;
-
     public void Start()
     {
         canAttack = false;
@@ -77,7 +75,6 @@ public class PlayerController : MonoBehaviour
     {
         playerHealth.Damage(MAX_HEALTH);
         animator.SetTrigger("Attacked");
-        OnPlayerDead.Invoke();
     }
 
 }

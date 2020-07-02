@@ -914,9 +914,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7aab65145266cd4bab05057371973a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startGameScene: {fileID: 0}
-  gameScene: {fileID: 0}
-  gameOverScene: {fileID: 0}
+  startGameScene: {fileID: 102900000, guid: c2ac3ae82e8fd7b428c94974cfa43364, type: 3}
+  gameScene: {fileID: 102900000, guid: b1117644093c29443ac6ff5ecf0a97ed, type: 3}
+  gameOverScene: {fileID: 102900000, guid: bec5a3f6e8baa024392dfcd31a02666d, type: 3}
 --- !u!1 &1421956981
 GameObject:
   m_ObjectHideFlags: 0

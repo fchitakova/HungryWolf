@@ -3,7 +3,10 @@ guid: a7aab65145266cd4bab05057371973a3
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - startGameScene: {fileID: 102900000, guid: c2ac3ae82e8fd7b428c94974cfa43364, type: 3}
+  - gameScene: {fileID: 102900000, guid: b1117644093c29443ac6ff5ecf0a97ed, type: 3}
+  - gameOverScene: {fileID: 102900000, guid: bec5a3f6e8baa024392dfcd31a02666d, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

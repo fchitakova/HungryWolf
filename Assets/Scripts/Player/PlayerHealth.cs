@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
     private int currentHealth;
 
     public static Action<int> OnHealthChange;
+    public static Action OnPlayerDead;
 
     public void Start()
     {
@@ -21,6 +22,7 @@ public class PlayerHealth : MonoBehaviour
         if(currentHealth < 0)
         {
             currentHealth = 0;
+            OnPlayerDead?.Invoke();
         }
         OnHealthChange?.Invoke(currentHealth);
     }

@@ -1,5 +1,4 @@
-﻿
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,8 +7,7 @@ public class GameManager : MonoBehaviour
 
     public SceneAsset startGameScene;
     public SceneAsset gameScene;
-    // public SceneAsset gameOverScene;
-
+    public SceneAsset gameOverScene;
 
     public void LoadGame()
     {
@@ -19,18 +17,22 @@ public class GameManager : MonoBehaviour
 
     public void OnEnable()
     {
-        PlayerController.OnPlayerDead += LoadGameOverScene;
+        PlayerHealth.OnPlayerDead += LoadGameOverScene;
     }
 
     public void LoadGameOverScene()
     {
-        SceneManager.LoadScene(gameScene.name);
+        SceneManager.LoadScene(gameOverScene.name);
     }
 
     public void EndGame()
     {
-        Debug.Log("End Game");
         Application.Quit();
+    }
+
+    public void OnDisable()
+    {
+        PlayerHealth.OnPlayerDead -= LoadGameOverScene;
     }
 
 
