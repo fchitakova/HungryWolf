@@ -4,9 +4,10 @@ using UnityEngine;
 [Serializable]
 public class Sound
 {
-    public AudioClip audio;
+    public AudioClip clip;
 
     public string name;
+
     public bool loop;
 
     [Range(0f,1f)]

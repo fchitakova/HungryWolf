@@ -11,33 +11,27 @@ public class AudioManager : MonoBehaviour
 
     public void Awake()
     {
-        EnsureOnlyOneInstanceIsRunning();
-
-        DontDestroyOnLoad(gameObject);
-
-        foreach(Sound sound in sounds)
-        {
-            addNewAudioSource(sound);
-        }
+        InstantiateAudioManager();
     }
 
-    private void EnsureOnlyOneInstanceIsRunning()
+    private void InstantiateAudioManager()
     {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else
+        if (instance != null)
         {
             Destroy(gameObject);
             return;
         }
+        
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+        Array.ForEach(sounds, sound => AddNewAudioSource(sound));
+            
     }
 
-    private void addNewAudioSource(Sound sound)
+    private void AddNewAudioSource(Sound sound)
     {
         sound.source = gameObject.AddComponent<AudioSource>();
-        sound.source.clip = sound.audio;
+        sound.source.clip = sound.clip;
         sound.source.volume = sound.volume;
         sound.source.loop = sound.loop;
     }
@@ -49,9 +43,17 @@ public class AudioManager : MonoBehaviour
 
     public void Play(string name)
     {
-         Debug.Log("Name: "+ name);
-         Sound targetSound = Array.Find(sounds, sound => sound.name.Equals(name));
-         targetSound.source.Play();
+        Sound targetSound = Array.Find(sounds, item => item.name == name);
+        if (targetSound == null)
+        {
+            Debug.LogWarning("Sound: " + name + " not found!");
+            return;
+        }
+
+        // Sound targetSound = Array.Find(sounds, sound => sound.name.Equals(name));
+        // Debug.Log(targetSound.name + " value: "+targetSound.source);
+
+        targetSound.source.Play();
     }
 
     public void OnEnable()
@@ -68,17 +70,9 @@ public class AudioManager : MonoBehaviour
     {
         AudioSource[] audioSources = GetComponents<AudioSource>();
 
-        bool shouldMute = (!soundOn);
+        bool shouldMute = !soundOn;
 
         Array.ForEach(audioSources, audioSource => audioSource.mute = shouldMute);
-    }
-
-    public void Mute()
-    {
-        foreach (Sound sound in sounds)
-        {
-            addNewAudioSource(sound);
-        }
     }
 
 }
