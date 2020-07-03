@@ -1,25 +1,25 @@
 ﻿using System;
 using UnityEngine;
 
-[Serializable]
-public class SoundManager : MonoBehaviour
+public class SoundButton : MonoBehaviour
 {
     internal static bool soundOn;
 
     private Animator animator;
-    
+
+    public static Action<bool> OnSoundOptionChanged;
+
     void Start()
     {
-        soundOn = true;
         animator = GetComponent<Animator>();
-
-
+        ChangeSoundPreference();
     }
 
     public void ChangeSoundPreference()
     {
         soundOn = soundOn ? false : true;
         animator.SetBool("SoundOn", soundOn);
+        OnSoundOptionChanged?.Invoke(soundOn);
     }
 
 }

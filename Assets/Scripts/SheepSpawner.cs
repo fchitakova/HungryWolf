@@ -25,7 +25,6 @@ public class SheepSpawner : MonoBehaviour
     {
         while(currentSheepCount <= sheeps.Length)
         {
-            Debug.Log("Current sheep count: " + currentSheepCount + " max sheep count:"+sheeps.Length);
             InstantiateNewSheep();
             yield return null;
         }

@@ -7,6 +7,11 @@ public class PlayerController : MonoBehaviour
     public const int MOVEMENT_HEALTH_DAMAGE = 5;
     public const int HEAL_AMOUNT = 20;
 
+    private const string EAT_SHEEP_SOUND = "EatSheep";
+    private const string GAME_OVER_SOUND = "GameOver";
+    private const string ATTACK = "Attack";
+    private const string ATTACKED = "Attacked";
+
     [SerializeField]
     internal PlayerInput playerInput;
 
@@ -15,6 +20,9 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     internal PlayerCollision playerCollision;
+
+    [SerializeField]
+    private AudioManager audioManager;
 
     internal Vector2 movement;
     private Animator animator;
@@ -40,11 +48,13 @@ public class PlayerController : MonoBehaviour
         if (isCollidedWithSheep())
         {
             Attack(playerCollision.collisionInvolvedSheep);
+            audioManager.Play(EAT_SHEEP_SOUND);
         }
 
         if (isCollidedWithEnemy())
         {
             TransitionToAttackedState();
+            audioManager.Play(GAME_OVER_SOUND);
         }
     }
 
@@ -60,14 +70,14 @@ public class PlayerController : MonoBehaviour
 
     private void Attack(Sheep attackedSheep)
     {
-        animator.SetTrigger("Attack");
+        animator.SetTrigger(ATTACK);
         attackedSheep.Attack();
         playerHealth.Heal(HEAL_AMOUNT);
     }
 
     private void TransitionToAttackedState()
     {
-        animator.SetBool("Attacked", true);
+        animator.SetBool(ATTACKED, true);
         playerHealth.Damage(PlayerHealth.MAX_HEALTH);
     }
 
@@ -94,7 +104,7 @@ public class PlayerController : MonoBehaviour
     }
     private bool IsPlayerExhausted()
     {
-        return !playerHealth.IsPositive() && animator.GetBool("Attacked") == false;
+        return !playerHealth.IsPositive() && animator.GetBool(ATTACKED) == false;
     }
 
     private void TransitionToDeadState()
