@@ -21,9 +21,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     internal PlayerCollision playerCollision;
 
-    [SerializeField]
-    private AudioManager audioManager;
-
     internal Vector2 movement;
     private Animator animator;
 
@@ -48,13 +45,13 @@ public class PlayerController : MonoBehaviour
         if (isCollidedWithSheep())
         {
             Attack(playerCollision.collisionInvolvedSheep);
-            audioManager.Play(EAT_SHEEP_SOUND);
+            FindObjectOfType<AudioManager>().Play(EAT_SHEEP_SOUND);
         }
 
         if (isCollidedWithEnemy())
         {
             TransitionToAttackedState();
-            audioManager.Play(GAME_OVER_SOUND);
+            FindObjectOfType<AudioManager>().Play(GAME_OVER_SOUND);
         }
     }
 
