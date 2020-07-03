@@ -17,7 +17,7 @@ public class SoundButton : MonoBehaviour
 
     public void ChangeSoundPreference()
     {
-        soundOn = soundOn ? false : true;
+        soundOn = !soundOn;
         animator.SetBool("SoundOn", soundOn);
         OnSoundOptionChanged?.Invoke(soundOn);
     }
