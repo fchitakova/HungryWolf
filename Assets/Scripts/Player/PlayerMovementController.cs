@@ -53,16 +53,16 @@ public class PlayerMovementController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             playerHealth.Damage(MOVEMENT_HEALTH_DAMAGE);
-            if (isPlayerExhausted())
+            if (IsPlayerExhausted())
             {
                 TransitionToDeadState();
             }
         }
     }
 
-    private bool isPlayerExhausted()
+    private bool IsPlayerExhausted()
     {
-        return !playerHealth.isPositive() && animator.GetBool("Attacked") == false;
+        return !playerHealth.IsPositive() && animator.GetBool("Attacked") == false;
     }
 
     private void TransitionToDeadState()

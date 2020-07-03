@@ -4,14 +4,14 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-
-    public SceneAsset startGameScene;
-    public SceneAsset gameScene;
-    public SceneAsset gameOverScene;
+    public const int START_MENU_SCENE_INDEX = 0;
+    public const int GAME_SCENE_INDEX = 1;
+    public const int GAME_OVER_SCENE_INDEX = 2;
 
     public void LoadGame()
     {
-        SceneManager.LoadScene(gameScene.name);
+        string gameScene = SceneUtility.GetScenePathByBuildIndex(GAME_SCENE_INDEX);
+        SceneManager.LoadScene(gameScene);
     }
 
 
@@ -22,7 +22,8 @@ public class GameManager : MonoBehaviour
 
     public void LoadGameOverScene()
     {
-        SceneManager.LoadScene(gameOverScene.name);
+        string gameOverScene = SceneUtility.GetScenePathByBuildIndex(GAME_OVER_SCENE_INDEX);
+        SceneManager.LoadScene(gameOverScene);
     }
 
     public void EndGame()
@@ -34,6 +35,5 @@ public class GameManager : MonoBehaviour
     {
         OnPlayerDead.OnPlayerDeadEvent -= LoadGameOverScene;
     }
-
 
 }

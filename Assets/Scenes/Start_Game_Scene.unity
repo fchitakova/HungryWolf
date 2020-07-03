@@ -227,9 +227,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7aab65145266cd4bab05057371973a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startGameScene: {fileID: 102900000, guid: c2ac3ae82e8fd7b428c94974cfa43364, type: 3}
-  gameScene: {fileID: 102900000, guid: b1117644093c29443ac6ff5ecf0a97ed, type: 3}
-  gameOverScene: {fileID: 102900000, guid: bec5a3f6e8baa024392dfcd31a02666d, type: 3}
 --- !u!4 &331353334
 Transform:
   m_ObjectHideFlags: 0
@@ -334,7 +331,7 @@ PrefabInstance:
     - target: {fileID: 2185511064693158458, guid: 67e1db511cd457945a64f0e8a2faa801,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -12
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 2185511064693158458, guid: 67e1db511cd457945a64f0e8a2faa801,
         type: 3}
@@ -568,7 +565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -852,7 +849,7 @@ PrefabInstance:
     - target: {fileID: 4300114244251252165, guid: 23849c10d9607204fb28d5a0a99de4df,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4300114244251252165, guid: 23849c10d9607204fb28d5a0a99de4df,
         type: 3}
@@ -995,7 +992,7 @@ PrefabInstance:
     - target: {fileID: 8000600762662657794, guid: 9462f5872532b4a47ad0197d08aafdeb,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8000600762662657794, guid: 9462f5872532b4a47ad0197d08aafdeb,
         type: 3}

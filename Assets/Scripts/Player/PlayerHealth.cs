@@ -37,7 +37,7 @@ public class PlayerHealth : MonoBehaviour
         
     }
 
-    public bool isPositive()
+    public bool IsPositive()
     {
         return currentHealth > MIN_HEALTH;
     }
