@@ -9,8 +9,6 @@ public class Enemy : MonoBehaviour
     private AIPath aiPath;
     private Animator animator;
 
-    public static Action OnEnemyAttack;
-
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -30,12 +28,12 @@ public class Enemy : MonoBehaviour
         animator.SetBool("StartChasing", true);
     }
 
+    
     public void OnCollisionEnter2D(Collision2D collision)
     {
         if (IsPlayerHit(collision))
         {
             animator.SetBool("Attack", true);
-            OnEnemyAttack.Invoke();
         }
     }
 

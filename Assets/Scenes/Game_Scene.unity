@@ -449,6 +449,8 @@ GameObject:
   - component: {fileID: 1175419724}
   - component: {fileID: 1175419725}
   - component: {fileID: 1175419723}
+  - component: {fileID: 1175419726}
+  - component: {fileID: 1175419727}
   m_Layer: 14
   m_Name: Wolf
   m_TagString: Player
@@ -610,6 +612,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b61cee7eca5392f4a80b4ff390c9aa31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInput: {fileID: 1175419726}
+  playerMovement: {fileID: 1175419725}
+  playerCollision: {fileID: 1175419727}
 --- !u!114 &1175419725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -623,6 +628,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
+  playerController: {fileID: 1175419724}
+--- !u!114 &1175419726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175419717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae773ce8a6ab257478aeb488f40e52a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 1175419724}
+--- !u!114 &1175419727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175419717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c250dd8901ca9643a74fb3c8a56819d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 1175419724}
 --- !u!1 &1295856539
 GameObject:
   m_ObjectHideFlags: 0
