@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
-
+[Serializable]
 public class PlayerController : MonoBehaviour
 {
     public const int MOVEMENT_HEALTH_DAMAGE = 5;

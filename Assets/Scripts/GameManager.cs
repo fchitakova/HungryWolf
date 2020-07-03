@@ -1,7 +1,8 @@
-﻿using UnityEditor;
+﻿using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[Serializable]
 public class GameManager : MonoBehaviour
 {
     public const int START_MENU_SCENE_INDEX = 0;

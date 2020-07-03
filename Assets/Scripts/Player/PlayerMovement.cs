@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using static ScreenBoundaries;
 
+[Serializable]
 public class PlayerMovement : MonoBehaviour
 {
 

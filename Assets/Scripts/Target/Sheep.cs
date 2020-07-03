@@ -5,7 +5,7 @@ using UnityEngine;
 using static ScreenBoundaries;
 using Random = UnityEngine.Random;
 
-[System.Serializable]
+[Serializable]
 public class Sheep : MonoBehaviour
 {
     Transform target;
