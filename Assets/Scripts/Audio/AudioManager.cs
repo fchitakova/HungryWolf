@@ -4,10 +4,10 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     private const string THEME_SOUNDTRACK = "ThemeSoundtrack";
-    public static AudioManager instance;
 
     public Sound[] sounds;
 
+    private static AudioManager instance;
     public void Awake()
     {
         InstantiateAudioManager();

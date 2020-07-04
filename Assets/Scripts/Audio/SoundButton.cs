@@ -10,6 +10,7 @@ public class SoundButton : MonoBehaviour
 
     public static Action<bool> OnSoundOptionChanged;
 
+
     void Start()
     {
         animator = GetComponent<Animator>();

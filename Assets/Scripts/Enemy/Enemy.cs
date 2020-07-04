@@ -1,4 +1,5 @@
 ﻿using Pathfinding;
+using System;
 using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -7,6 +8,7 @@ public class Enemy : MonoBehaviour
 {
     private AIPath aiPath;
     private Animator animator;
+    private Transform target;
 
     void Start()
     {
@@ -14,6 +16,8 @@ public class Enemy : MonoBehaviour
 
         aiPath = GetComponent<AIPath>();
         aiPath.canSearch = false;
+
+        target = GetComponent<AIDestinationSetter>().target;
 
         StartCoroutine(StayIdle());
     }
@@ -27,7 +31,13 @@ public class Enemy : MonoBehaviour
         animator.SetBool("StartChasing", true);
     }
 
-    
+
+    public void FixedUpdate()
+    {
+        bool shouldFlip = target.position.x < transform.position.x;
+        GetComponent<SpriteRenderer>().flipX = shouldFlip;
+    }
+
     public void OnCollisionEnter2D(Collision2D collision)
     {
         if (IsPlayerHit(collision))
