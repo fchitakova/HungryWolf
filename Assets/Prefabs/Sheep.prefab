@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3138170070753961006}
   - component: {fileID: 615395414047483510}
   - component: {fileID: 1637691810375037513}
-  m_Layer: 12
+  m_Layer: 11
   m_Name: Sheep
   m_TagString: FoodTarget
   m_Icon: {fileID: 0}
