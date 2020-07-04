@@ -15,6 +15,8 @@ public class Sheep : MonoBehaviour
     AIPath aiPath;
     AIDestinationSetter destinationSetter;
 
+    internal bool isStillAttackable;
+
     public static event Action OnSheepAttacked;
 
 
@@ -26,7 +28,9 @@ public class Sheep : MonoBehaviour
 
         aiPath = GetComponent<AIPath>();
         destinationSetter = GetComponent<AIDestinationSetter>();
-       
+
+        isStillAttackable = true;
+
         StartCoroutine(Wander());
     }
 

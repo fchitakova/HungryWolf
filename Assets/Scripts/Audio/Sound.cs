@@ -4,6 +4,9 @@ using UnityEngine;
 [Serializable]
 public class Sound 
 {
-    public string name;
-    public AudioSource source;
+    [SerializeField]
+    internal string name;
+
+    [SerializeField]
+    internal AudioSource source;
 }

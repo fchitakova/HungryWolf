@@ -42,39 +42,47 @@ public class PlayerController : MonoBehaviour
 
     private void HandlePlayerCollisions()
     {
-        if (isCollidedWithSheep())
+        if (IsCollidedWithSheep())
         {
-            Attack(playerCollision.collisionInvolvedSheep);
-            FindObjectOfType<AudioManager>().Play(EAT_SHEEP_SOUND);
+             Attack(playerCollision.collisionInvolvedSheep);
         }
 
-        if (isCollidedWithEnemy())
+        if (IsCollidedWithEnemy())
         {
             TransitionToAttackedState();
-            FindObjectOfType<AudioManager>().Play(GAME_OVER_SOUND);
         }
     }
 
-    private bool isCollidedWithSheep()
+    private bool IsCollidedWithSheep()
     {
         return playerInput.isAttackPressed && playerCollision.collidedWithSheep;
     }
 
-    private bool isCollidedWithEnemy()
+    private void Attack(Sheep attackedSheep)
+    {
+        if (attackedSheep.isStillAttackable)
+        {
+            animator.SetTrigger(ATTACK);
+            FindObjectOfType<AudioManager>().Play(EAT_SHEEP_SOUND);
+
+            attackedSheep.Attack();
+            playerHealth.Heal(HEAL_AMOUNT);
+
+            attackedSheep.isStillAttackable = false;
+        }
+    }
+
+    private bool IsCollidedWithEnemy()
     {
         return playerCollision.collidedWithEnemy;
     }
 
-    private void Attack(Sheep attackedSheep)
-    {
-        animator.SetTrigger(ATTACK);
-        attackedSheep.Attack();
-        playerHealth.Heal(HEAL_AMOUNT);
-    }
 
     private void TransitionToAttackedState()
     {
         animator.SetBool(ATTACKED, true);
+        FindObjectOfType<AudioManager>().Play(GAME_OVER_SOUND);
+
         playerHealth.Damage(PlayerHealth.MAX_HEALTH);
     }
 
