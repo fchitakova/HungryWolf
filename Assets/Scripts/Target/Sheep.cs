@@ -40,7 +40,7 @@ public class Sheep : MonoBehaviour
     {
         while (true)
         {
-            target.position = getRandomFreePositionInScreenBoundaries();
+            target.position = GetRandomFreePositionInScreenBoundaries();
             destinationSetter.target = target;
 
             while (!isTargetReached())

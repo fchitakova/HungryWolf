@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 currentPosition = rigidBody.position;
         Vector2 newPosition = currentPosition + (playerController.movement * moveSpeed * Time.fixedDeltaTime);
-        Vector2 newPositionInScreenBoundaries = clampObjectPositionInScreenBoundaries(playerWidth, playerHeight, newPosition);
+        Vector2 newPositionInScreenBoundaries = ClampObjectPositionInScreenBoundaries(playerWidth, playerHeight, newPosition);
        
         rigidBody.MovePosition(newPositionInScreenBoundaries);
     }

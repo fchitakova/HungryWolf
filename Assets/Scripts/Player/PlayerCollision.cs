@@ -16,6 +16,7 @@ public class PlayerCollision : MonoBehaviour
     {
         if (IsSheepHit(collision))
         {
+            Debug.Log("Collsion detected");
             collidedWithSheep = true;
             collisionInvolvedSheep = collision.collider.GetComponent<Sheep>();
         }

@@ -5,7 +5,7 @@ public class ScreenBoundaries
     private static Vector2 screenBoundaries = screenBoundaries = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
 
 
-    public static Vector2 clampObjectPositionInScreenBoundaries(float gameObjectWidth, float gameObjectHeight,Vector2 position)
+    public static Vector2 ClampObjectPositionInScreenBoundaries(float gameObjectWidth, float gameObjectHeight,Vector2 position)
     {
         Vector2 horizontalScreenBoundaries = new Vector2((-screenBoundaries.x) + gameObjectWidth, screenBoundaries.x - gameObjectWidth);
         Vector2 verticalScreenBoundaries = new Vector2((-screenBoundaries.y) + gameObjectHeight, screenBoundaries.y - gameObjectHeight);
@@ -19,7 +19,7 @@ public class ScreenBoundaries
 
 
 
-    public static Vector2 getRandomFreePositionInScreenBoundaries()
+    public static Vector2 GetRandomFreePositionInScreenBoundaries()
     {
         Vector2 randomPosition;
         do
@@ -27,14 +27,14 @@ public class ScreenBoundaries
             float randomX = Random.Range(-screenBoundaries.x, screenBoundaries.x);
             float randomY = Random.Range(-screenBoundaries.y, screenBoundaries.y);
             randomPosition = new Vector2(randomX, randomY);
-        } while (!isPositionFree(randomPosition));
+        } while (!IsPositionFree(randomPosition));
 
         return randomPosition;
 
     }
 
 
-    private static bool isPositionFree(Vector2 position)
+    private static bool IsPositionFree(Vector2 position)
     {
         bool isPositionFree = (Physics2D.OverlapCircle(position, 1.5f) != null);
         return isPositionFree;

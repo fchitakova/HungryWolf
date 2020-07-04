@@ -35,7 +35,7 @@ public class SheepSpawner : MonoBehaviour
 
     private void InstantiateNewSheep()
     {
-        Vector2 spawnPosition = getRandomFreePositionInScreenBoundaries();
+        Vector2 spawnPosition = GetRandomFreePositionInScreenBoundaries();
         Instantiate(sheeps[Random.Range(0, sheeps.Length)], spawnPosition, Quaternion.identity);
         ++currentSheepCount;
     }
