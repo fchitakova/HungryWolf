@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour
     public const int MOVEMENT_HEALTH_DAMAGE = 5;
     public const int HEAL_AMOUNT = 20;
 
-    private const string EAT_SHEEP_SOUND = "EatSheep";
     private const string GAME_OVER_SOUND = "GameOver";
     private const string ATTACK = "Attack";
     private const string ATTACKED = "Attacked";
@@ -42,7 +41,7 @@ public class PlayerController : MonoBehaviour
 
     private void HandlePlayerCollisions()
     {
-        if (IsCollidedWithSheep())
+        if (AttemptedSheepAttack())
         {
              Attack(playerCollision.collisionInvolvedSheep);
         }
@@ -53,23 +52,22 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private bool IsCollidedWithSheep()
+    private bool AttemptedSheepAttack()
     {
         return playerInput.isAttackPressed && playerCollision.collidedWithSheep;
     }
 
     private void Attack(Sheep attackedSheep)
     {
-        if (attackedSheep.isStillAttackable)
-        {
+       if (!attackedSheep.isDead)
+       {
             animator.SetTrigger(ATTACK);
-            FindObjectOfType<AudioManager>().Play(EAT_SHEEP_SOUND);
 
             attackedSheep.Attack();
             playerHealth.Heal(HEAL_AMOUNT);
 
-            attackedSheep.isStillAttackable = false;
-        }
+            attackedSheep.isDead = true;
+       }
     }
 
     private bool IsCollidedWithEnemy()

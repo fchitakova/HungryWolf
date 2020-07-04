@@ -8,6 +8,8 @@ using Random = UnityEngine.Random;
 [Serializable]
 public class Sheep : MonoBehaviour
 {
+    private const string EATEN_SHEEP_SOUND = "EatSheep";
+
     Transform target;
     Rigidbody2D rigidBody;
     Animator animator;
@@ -15,7 +17,7 @@ public class Sheep : MonoBehaviour
     AIPath aiPath;
     AIDestinationSetter destinationSetter;
 
-    internal bool isStillAttackable;
+    internal bool isDead;
 
     public static event Action OnSheepAttacked;
 
@@ -29,7 +31,7 @@ public class Sheep : MonoBehaviour
         aiPath = GetComponent<AIPath>();
         destinationSetter = GetComponent<AIDestinationSetter>();
 
-        isStillAttackable = true;
+        isDead = false;
 
         StartCoroutine(Wander());
     }
@@ -64,6 +66,7 @@ public class Sheep : MonoBehaviour
 
     public void Attack()
     {
+        FindObjectOfType<AudioManager>().Play(EATEN_SHEEP_SOUND);
         animator.SetBool("Attacked", true);
         OnSheepAttacked?.Invoke();
     }
